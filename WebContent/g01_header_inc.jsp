@@ -4,7 +4,7 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 
-
+<c:set var="imageBase" value="images"/>
 
 <!DOCTYPE  html>
 <html>
@@ -27,7 +27,7 @@
 <div id="header">
 	<!-- wrapper-header -->
 	<div class="wrapper">
-		<a href="index.jsp"><img id="logo" src="img/logo.png" alt="Zhen Import Inc." /></a>
+		<a href="index.jsp"><img id="logo" src="${imageBase}/logo.png" alt="Zhen Import Inc." /></a>
 		<!-- search -->
 		<div class="top-search">
 			<form  method="get" id="searchform" action="#">
@@ -37,7 +37,7 @@
 					  
 					<input type="submit" id="searchsubmit" value=" " />
 					-->
-					<img alt="" src="img/search.png"/>
+					<img alt="" src="${imageBase}/search.png"/>
 				</div>
 			</form>
 		</div>
@@ -57,8 +57,8 @@
 						</c:if>
 					</a> &nbsp;
 					<a href="userlogout.do"> Sign out</a>&nbsp;&nbsp;&nbsp;|&nbsp;				
-					<a href="index.jsp?locale=en_US"><img alt="English" src="img/language/canada.gif"/> <spring:message code="language_en"/></a>&nbsp; 
-					<a href="index.jsp?locale=fr_CA"><img alt="french" src="img/language/canada.gif"/> <spring:message code="language_fr"/></a>
+					<a href="index.jsp?locale=en_US"><img alt="English" src="${imageBase}/language/canada.gif"/> <spring:message code="language_en"/></a>&nbsp; 
+					<a href="index.jsp?locale=fr_CA"><img alt="french" src="${imageBase}/language/canada.gif"/> <spring:message code="language_fr"/></a>
 				</div>
 		</div>
 		<!-- ENDS language -->

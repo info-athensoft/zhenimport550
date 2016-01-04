@@ -20,6 +20,10 @@
 
 <!-- ENDS authentication -->
 
+<!-- image path -->
+<c:set var="imagePathBase" value="/img/photos"/>
+<c:set var="imageBase" value="images"/>
+<!-- ENDS image path -->
 
 <head>
 		<!-- <meta charset="UTF"> -->
@@ -108,7 +112,7 @@
 				float: left;
 				width: 100%;
 				margin: 0px 0px 30px 30px;
-				background: url(../img/shadow-1-3.png) no-repeat 0px 150px;
+				background: url(../${imageBase}/shadow-1-3.png) no-repeat 0px 150px;
 				padding-bottom: 10px;
 			}
 		</style>
@@ -128,7 +132,7 @@
 	<!-- ENDS Menu -->
 	
 	<!-- Slider -->
-		<jsp:include page="g03_slider_inc.html"></jsp:include>
+		<jsp:include page="g03_slider_inc.jsp"></jsp:include>
 	<!-- ENDS Slider -->
 	
 	
@@ -164,7 +168,7 @@
 									<br/>
 									<ul class="blocks-thumbs-fullwidth thumbs-rollover">
 										<li>
-											<a href="####" class="thumb1" title="An image"><img src="/images/photos/slide-img-8.png" alt="Post" /></a>
+											<a href="####" class="thumb1" title="An image"><img src="${imagePathBase}/slide-img-8.png" alt="Post" /></a>
 											<div class="excerpt" style="text-align:center">
 												<!--  <a href="####" class="header">Event Title</a>  -->
 												<div align="center">
@@ -183,21 +187,21 @@
 									<div class="clearfix"></div>
 									<ul class="blocks-thumbs thumbs-rollover">
 										<li>
-											<a href="####" class="thumb" title="An image"><img src="img/dummies/282x150.gif" alt="Post" /></a>
+											<a href="####" class="thumb" title="An image"><img src="${imageBase}/dummies/282x150.gif" alt="Post" /></a>
 											<div class="excerpt">
 												<a href="####" class="header">Your prodcut name</a>
 												Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet
 											</div>
 										</li>
 										<li>
-											<a href="####" class="thumb" title="An image"><img src="img/dummies/282x150.gif" alt="Post" /></a>
+											<a href="####" class="thumb" title="An image"><img src="${imageBase}/dummies/282x150.gif" alt="Post" /></a>
 											<div class="excerpt">
 												<a href="####" class="header">Your prodcut name</a>
 												Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet 
 											</div>
 										</li>
 										<li>
-											<a href="####" class="thumb" title="An image"><img src="img/dummies/282x150.gif" alt="Post" /></a>
+											<a href="####" class="thumb" title="An image"><img src="${imageBase}/dummies/282x150.gif" alt="Post" /></a>
 											<div class="excerpt">
 												<a href="####" class="header">Your prodcut name</a>
 												Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet 
@@ -225,42 +229,42 @@
 								<div>
 									<ul class="blocks-thumbs thumbs-rollover">
 										<li>
-											<a href="single.html" class="thumb" title="An image"><img src="img/dummies/282x150.gif" alt="Post" /></a>
+											<a href="single.html" class="thumb" title="An image"><img src="${imageBase}/dummies/282x150.gif" alt="Post" /></a>
 											<div class="excerpt">
 												<a href="single.html" class="header">Lorem ipsum dolor</a>
 												Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.  
 											</div>
 										</li>
 										<li>
-											<a href="single.html" class="thumb" title="An image"><img src="img/dummies/282x150.gif" alt="Post" /></a>
+											<a href="single.html" class="thumb" title="An image"><img src="${imageBase}/dummies/282x150.gif" alt="Post" /></a>
 											<div class="excerpt">
 												<a href="single.html" class="header">Lorem ipsum dolor</a>
 												Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.  
 											</div>
 										</li>
 										<li>
-											<a href="single.html" class="thumb" title="An image"><img src="img/dummies/282x150.gif" alt="Post" /></a>
+											<a href="single.html" class="thumb" title="An image"><img src="${imageBase}/dummies/282x150.gif" alt="Post" /></a>
 											<div class="excerpt">
 												<a href="single.html" class="header">Lorem ipsum dolor</a>
 												Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.  
 											</div>
 										</li>
 										<li>
-											<a href="single.html" class="thumb" title="An image"><img src="img/dummies/282x150.gif" alt="Post" /></a>
+											<a href="single.html" class="thumb" title="An image"><img src="${imageBase}/dummies/282x150.gif" alt="Post" /></a>
 											<div class="excerpt">
 												<a href="single.html" class="header">Lorem ipsum dolor</a>
 												Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.  
 											</div>
 										</li>
 										<li>
-											<a href="single.html" class="thumb" title="An image"><img src="img/dummies/282x150.gif" alt="Post" /></a>
+											<a href="single.html" class="thumb" title="An image"><img src="${imageBase}/dummies/282x150.gif" alt="Post" /></a>
 											<div class="excerpt">
 												<a href="single.html" class="header">Lorem ipsum dolor</a>
 												Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.  
 											</div>
 										</li>
 										<li>
-											<a href="single.html" class="thumb" title="An image"><img src="img/dummies/282x150.gif" alt="Post" /></a>
+											<a href="single.html" class="thumb" title="An image"><img src="${imageBase}/dummies/282x150.gif" alt="Post" /></a>
 											<div class="excerpt">
 												<a href="single.html" class="header">Lorem ipsum dolor</a>
 												Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.  
@@ -299,23 +303,23 @@
 	
 	<!-- Twitter -->
 	<!-- 
-			<div id="twitter">
-				<div class="wrapper">
-					<a href="#" id="prev-tweet"></a>
-					<a href="#" id="next-tweet"></a>
-					<img id="bird" src="img/bird.png" alt="Tweets" />
-					<div id="tweets">
-						<ul class="tweet_list">
-							<li>xxxx</li>
-							<li>yyyy</li>
-							<li>zzzz</li>
-							<li>dddd</li>
-						</ul>
-					</div>
+		<div id="twitter">
+			<div class="wrapper">
+				<a href="#" id="prev-tweet"></a>
+				<a href="#" id="next-tweet"></a>
+				<img id="bird" src="img/bird.png" alt="Tweets" />
+				<div id="tweets">
+					<ul class="tweet_list">
+						<li>xxxx</li>
+						<li>yyyy</li>
+						<li>zzzz</li>
+						<li>dddd</li>
+					</ul>
 				</div>
 			</div>
+		</div>
 	 -->
-			<!-- ENDS Twitter -->
+	<!-- ENDS Twitter -->
 	
 	
 	<!-- Footer -->

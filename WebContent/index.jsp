@@ -20,6 +20,10 @@
 
 <!-- ENDS authentication -->
 
+<!-- image path -->
+<c:set var="imagePathBase" value="/img/photos"/>
+<c:set var="imageBase" value="images"/>
+<!-- ENDS image path -->
 
 <head>
 		<!-- <meta charset="UTF"> -->
@@ -108,7 +112,7 @@
 				float: left;
 				width: 100%;
 				margin: 0px 0px 30px 30px;
-				background: url(../img/shadow-1-3.png) no-repeat 0px 150px;
+				background: url(../${imageBase}/shadow-1-3.png) no-repeat 0px 150px;
 				padding-bottom: 10px;
 			}
 		</style>
@@ -128,7 +132,7 @@
 	<!-- ENDS Menu -->
 	
 	<!-- Slider -->
-		<jsp:include page="g03_slider_inc.html"></jsp:include>
+		<jsp:include page="g03_slider_inc.jsp"></jsp:include>
 	<!-- ENDS Slider -->
 	
 	
@@ -146,138 +150,6 @@
 				
 				<!-- removed by Athens @ 2013-03-23 11:59 -->
 				<!-- content -->
-					<div id="content">
-						
-							<!-- TABS -->
-							<!-- the tabs -->
-							<ul class="tabs">
-								<li><a href="#"><span style="font-size:1.5em">Featured products</span></a></li>
-								<li><a href="#"><span  style="font-size:1.5em">Information</span></a></li>
-								<li><a href="#"><span  style="font-size:1.5em">Recent posts</span></a></li>
-							</ul>
-							
-							<!-- tab "panes" -->
-							<div class="panes">
-							
-								<!-- Posts -->
-								<div>
-									<br/>
-									<ul class="blocks-thumbs-fullwidth thumbs-rollover">
-										<li>
-											<a href="####" class="thumb1" title="An image"><img src="/images/photos/slide-img-8.png" alt="Post" /></a>
-											<div class="excerpt" style="text-align:center">
-												<!--  <a href="####" class="header">Event Title</a>  -->
-												<div align="center">
-													<h3>Winter Holiday Good Deals !</h3>
-													<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam </p>
-													<br/>
-													
-													<!-- <a href="contact.do?locale=${loc}" class="link-button"><span>Tel: (514)527-8341 &nbsp;&nbsp;&nbsp; Email: info@zhenimport.com &nbsp;&nbsp;&nbsp; ORDER NOW !</span></a>  -->
-													<a href="contact.do?locale=${loc}" class="link-button"><span>CONTACT US NOW !</span></a>
-													
-												</div>
-											</div>
-										</li>
-									</ul>
-									
-									<div class="clearfix"></div>
-									<ul class="blocks-thumbs thumbs-rollover">
-										<li>
-											<a href="####" class="thumb" title="An image"><img src="img/dummies/282x150.gif" alt="Post" /></a>
-											<div class="excerpt">
-												<a href="####" class="header">Your prodcut name</a>
-												Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet
-											</div>
-										</li>
-										<li>
-											<a href="####" class="thumb" title="An image"><img src="img/dummies/282x150.gif" alt="Post" /></a>
-											<div class="excerpt">
-												<a href="####" class="header">Your prodcut name</a>
-												Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet 
-											</div>
-										</li>
-										<li>
-											<a href="####" class="thumb" title="An image"><img src="img/dummies/282x150.gif" alt="Post" /></a>
-											<div class="excerpt">
-												<a href="####" class="header">Your prodcut name</a>
-												Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet 
-											</div>
-										</li>
-									</ul>
-									
-								</div>
-								
-								
-								<!-- ENDS posts -->
-								
-								<!-- Information  -->
-								<div>
-									<div class="plain-text">
-										<h6>Pellentesque habitant morbi tristique senectus et netus et malesuada.</h6> 
-										<p>Fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus. </p>
-										<p>Fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.Fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper <a href="single.html">This is a link</a>. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus. </p>
-										<a href="single.html" class="link-button"><span>Read more &#8594;</span></a>
-									</div>
-								</div>
-								<!-- ENDS Information -->
-
-								<!-- Recent Posts -->
-								<div>
-									<ul class="blocks-thumbs thumbs-rollover">
-										<li>
-											<a href="single.html" class="thumb" title="An image"><img src="img/dummies/282x150.gif" alt="Post" /></a>
-											<div class="excerpt">
-												<a href="single.html" class="header">Lorem ipsum dolor</a>
-												Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.  
-											</div>
-										</li>
-										<li>
-											<a href="single.html" class="thumb" title="An image"><img src="img/dummies/282x150.gif" alt="Post" /></a>
-											<div class="excerpt">
-												<a href="single.html" class="header">Lorem ipsum dolor</a>
-												Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.  
-											</div>
-										</li>
-										<li>
-											<a href="single.html" class="thumb" title="An image"><img src="img/dummies/282x150.gif" alt="Post" /></a>
-											<div class="excerpt">
-												<a href="single.html" class="header">Lorem ipsum dolor</a>
-												Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.  
-											</div>
-										</li>
-										<li>
-											<a href="single.html" class="thumb" title="An image"><img src="img/dummies/282x150.gif" alt="Post" /></a>
-											<div class="excerpt">
-												<a href="single.html" class="header">Lorem ipsum dolor</a>
-												Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.  
-											</div>
-										</li>
-										<li>
-											<a href="single.html" class="thumb" title="An image"><img src="img/dummies/282x150.gif" alt="Post" /></a>
-											<div class="excerpt">
-												<a href="single.html" class="header">Lorem ipsum dolor</a>
-												Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.  
-											</div>
-										</li>
-										<li>
-											<a href="single.html" class="thumb" title="An image"><img src="img/dummies/282x150.gif" alt="Post" /></a>
-											<div class="excerpt">
-												<a href="single.html" class="header">Lorem ipsum dolor</a>
-												Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.  
-											</div>
-										</li>
-									</ul>
-								</div>
-								<!-- ENDS Recent posts -->
-								
-								
-							</div>
-							<!-- ENDS TABS -->
-		
-					</div>
-					<!-- ENDS content -->	
-				<!-- content -->
-
 				<!-- ENDS content -->
 				
 				<!-- headline -->
@@ -299,23 +171,23 @@
 	
 	<!-- Twitter -->
 	<!-- 
-			<div id="twitter">
-				<div class="wrapper">
-					<a href="#" id="prev-tweet"></a>
-					<a href="#" id="next-tweet"></a>
-					<img id="bird" src="img/bird.png" alt="Tweets" />
-					<div id="tweets">
-						<ul class="tweet_list">
-							<li>xxxx</li>
-							<li>yyyy</li>
-							<li>zzzz</li>
-							<li>dddd</li>
-						</ul>
-					</div>
+		<div id="twitter">
+			<div class="wrapper">
+				<a href="#" id="prev-tweet"></a>
+				<a href="#" id="next-tweet"></a>
+				<img id="bird" src="img/bird.png" alt="Tweets" />
+				<div id="tweets">
+					<ul class="tweet_list">
+						<li>xxxx</li>
+						<li>yyyy</li>
+						<li>zzzz</li>
+						<li>dddd</li>
+					</ul>
 				</div>
 			</div>
+		</div>
 	 -->
-			<!-- ENDS Twitter -->
+	<!-- ENDS Twitter -->
 	
 	
 	<!-- Footer -->
