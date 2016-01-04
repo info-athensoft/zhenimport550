@@ -15,6 +15,11 @@
 	<fmt:setLocale value="${loc}" />
 <!-- ENDS i18n -->
 
+<!-- image path -->
+<c:set var="imageBase" value="images"/>
+<c:set var="imagePathBase" value="/img/photos"/>
+<!-- ENDS image path -->
+
 <head>
 		<meta charset="UTF">
 		<title>Zhen Import Inc.</title>
@@ -142,7 +147,7 @@
 				<div class="project-column">
 					<!-- shadow -->
 					<div class="project-shadow">
-						<div class="project-thumbnail"><img src="/images/photos/company_1.jpg" alt="About us image company"/></div>
+						<div class="project-thumbnail"><img src="${imagePathBase}/company_1.jpg" alt="About us image company"/></div>
 						<!-- meta -->
 						<ul class="meta">
 							<!--  
