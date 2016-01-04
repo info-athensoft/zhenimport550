@@ -19,6 +19,9 @@
 
 <!-- ENDS authentication -->
 
+<!-- image path -->
+<c:set var="imagePathBase" value="/img/photos"/>
+<!-- ENDS image path -->
 
 <head>
 		<meta charset="UTF">
@@ -167,7 +170,7 @@
 										<!--  
 										<a href="catalogue_by_class.jsp" class="cover"><img src="img/dummies/438x267.gif"  alt="Feature image" /></a>
 										-->
-										<a href="itemPageList.do?classId=1&page=1&locale=${loc}" class="cover"><img src="/images/photos/cata1.jpg"  alt="Feature image" /></a>
+										<a href="itemPageList.do?classId=1&page=1&locale=${loc}" class="cover"><img src="${imagePathBase}/cata1.jpg"  alt="Feature image" /></a>
 									</div>
 									<!-- ENDS project-thumb -->
 									
@@ -200,7 +203,7 @@
 										<!--  
 										<a href="catalogue_by_class.jsp" class="cover"><img src="img/dummies/438x267.gif"  alt="Feature image" /></a>
 										-->
-										<a href="itemPageList.do?classId=2&page=1&locale=${loc}" class="cover"><img src="/images/photos/cata2.jpg"  alt="Feature image" /></a>
+										<a href="itemPageList.do?classId=2&page=1&locale=${loc}" class="cover"><img src="${imagePathBase}/cata2.jpg"  alt="Feature image" /></a>
 									</div>
 									<!-- ENDS project-thumb -->
 									
@@ -233,7 +236,7 @@
 										<!--  
 										<a href="catalogue_by_class.jsp" class="cover"><img src="img/dummies/438x267.gif"  alt="Feature image" /></a>
 										-->
-										<a href="itemPageList.do?classId=3&page=1&locale=${loc}" class="cover"><img src="/images/photos/cata3.jpg"  alt="Feature image" /></a>
+										<a href="itemPageList.do?classId=3&page=1&locale=${loc}" class="cover"><img src="${imagePathBase}/cata3.jpg"  alt="Feature image" /></a>
 									</div>
 									<!-- ENDS project-thumb -->
 									
@@ -266,7 +269,7 @@
 										<!--  
 										<a href="catalogue_by_class.jsp" class="cover"><img src="img/dummies/438x267.gif"  alt="Feature image" /></a>
 										-->
-										<a href="itemPageList.do?classId=4&page=1&locale=${loc}" class="cover"><img src="/images/photos/cata4.jpg"  alt="Feature image" /></a>
+										<a href="itemPageList.do?classId=4&page=1&locale=${loc}" class="cover"><img src="${imagePathBase}/cata4.jpg"  alt="Feature image" /></a>
 									</div>
 									<!-- ENDS project-thumb -->
 									
@@ -299,7 +302,7 @@
 										<!--  
 										<a href="catalogue_by_class.jsp" class="cover"><img src="img/dummies/438x267.gif"  alt="Feature image" /></a>
 										-->
-										<a href="itemPageList.do?classId=5&page=1&locale=${loc}" class="cover"><img src="/images/photos/cata5.jpg"  alt="Feature image" /></a>
+										<a href="itemPageList.do?classId=5&page=1&locale=${loc}" class="cover"><img src="${imagePathBase}/cata5.jpg"  alt="Feature image" /></a>
 									</div>
 									<!-- ENDS project-thumb -->
 									
@@ -332,7 +335,7 @@
 										<!--  
 										<a href="catalogue_by_class.jsp" class="cover"><img src="img/dummies/438x267.gif"  alt="Feature image" /></a>
 										-->
-										<a href="itemPageList.do?classId=6&page=1&locale=${loc}" class="cover"><img src="/images/photos/cata6.jpg"  alt="Feature image" /></a>
+										<a href="itemPageList.do?classId=6&page=1&locale=${loc}" class="cover"><img src="${imagePathBase}/cata6.jpg"  alt="Feature image" /></a>
 									</div>
 									<!-- ENDS project-thumb -->
 									
@@ -365,7 +368,7 @@
 										<!--  
 										<a href="catalogue_by_class.jsp" class="cover"><img src="img/dummies/438x267.gif"  alt="Feature image" /></a>
 										-->
-										<a href="itemPageList.do?classId=7&page=1&locale=${loc}" class="cover"><img src="/images/photos/cata7.jpg"  alt="Feature image" /></a>
+										<a href="itemPageList.do?classId=7&page=1&locale=${loc}" class="cover"><img src="${imagePathBase}/cata7.jpg"  alt="Feature image" /></a>
 									</div>
 									<!-- ENDS project-thumb -->
 									
@@ -399,7 +402,7 @@
 										<!--  
 										<a href="catalogue_by_class.jsp" class="cover"><img src="img/dummies/438x267.gif"  alt="Feature image" /></a>
 										-->
-										<a href="itemPageList.do?classId=8&page=1&locale=${loc}" class="cover"><img src="/images/photos/cata8.jpg"  alt="Feature image" /></a>
+										<a href="itemPageList.do?classId=8&page=1&locale=${loc}" class="cover"><img src="${imagePathBase}/cata8.jpg"  alt="Feature image" /></a>
 									</div>
 									<!-- ENDS project-thumb -->
 									
@@ -433,7 +436,7 @@
 										<!--  
 										<a href="catalogue_by_class.jsp" class="cover"><img src="img/dummies/438x267.gif"  alt="Feature image" /></a>
 										-->
-										<a href="itemPageList.do?classId=9&page=1&locale=${loc}" class="cover"><img src="/images/photos/cata9.jpg"  alt="Feature image" /></a>
+										<a href="itemPageList.do?classId=9&page=1&locale=${loc}" class="cover"><img src="${imagePathBase}/cata9.jpg"  alt="Feature image" /></a>
 									</div>
 									<!-- ENDS project-thumb -->
 									
@@ -467,7 +470,7 @@
 										<!--  
 										<a href="catalogue_by_class.jsp" class="cover"><img src="img/dummies/438x267.gif"  alt="Feature image" /></a>
 										-->
-										<a href="itemPageList.do?classId=10&page=1&locale=${loc}" class="cover"><img src="/images/photos/cata10.jpg"  alt="Feature image" /></a>
+										<a href="itemPageList.do?classId=10&page=1&locale=${loc}" class="cover"><img src="${imagePathBase}/cata10.jpg"  alt="Feature image" /></a>
 									</div>
 									<!-- ENDS project-thumb -->
 									
@@ -501,7 +504,7 @@
 										<!--  
 										<a href="catalogue_by_class.jsp" class="cover"><img src="img/dummies/438x267.gif"  alt="Feature image" /></a>
 										-->
-										<a href="itemPageList.do?classId=11&page=1&locale=${loc}" class="cover"><img src="/images/photos/cata11.jpg"  alt="Feature image" /></a>
+										<a href="itemPageList.do?classId=11&page=1&locale=${loc}" class="cover"><img src="${imagePathBase}/cata11.jpg"  alt="Feature image" /></a>
 									</div>
 									<!-- ENDS project-thumb -->
 									
@@ -534,7 +537,7 @@
 										<!--  
 										<a href="catalogue_by_class.jsp" class="cover"><img src="img/dummies/438x267.gif"  alt="Feature image" /></a>
 										-->
-										<a href="itemPageList.do?classId=12&page=1&locale=${loc}" class="cover"><img src="/images/photos/cata12.jpg"  alt="Feature image" /></a>
+										<a href="itemPageList.do?classId=12&page=1&locale=${loc}" class="cover"><img src="${imagePathBase}/cata12.jpg"  alt="Feature image" /></a>
 									</div>
 									<!-- ENDS project-thumb -->
 									
@@ -568,7 +571,7 @@
 										<!--  
 										<a href="catalogue_by_class.jsp" class="cover"><img src="img/dummies/438x267.gif"  alt="Feature image" /></a>
 										-->
-										<a href="itemPageList.do?classId=13&page=1&locale=${loc}" class="cover"><img src="/images/photos/cata13.jpg"  alt="Feature image" /></a>
+										<a href="itemPageList.do?classId=13&page=1&locale=${loc}" class="cover"><img src="${imagePathBase}/cata13.jpg"  alt="Feature image" /></a>
 									</div>
 									<!-- ENDS project-thumb -->
 									
@@ -601,7 +604,7 @@
 										<!--  
 										<a href="catalogue_by_class.jsp" class="cover"><img src="img/dummies/438x267.gif"  alt="Feature image" /></a>
 										-->
-										<a href="itemPageList.do?classId=14&page=1&locale=${loc}" class="cover"><img src="/images/photos/cata14.jpg"  alt="Feature image" /></a>
+										<a href="itemPageList.do?classId=14&page=1&locale=${loc}" class="cover"><img src="${imagePathBase}/cata14.jpg"  alt="Feature image" /></a>
 									</div>
 									<!-- ENDS project-thumb -->
 									
@@ -635,7 +638,7 @@
 										<!--  
 										<a href="catalogue_by_class.jsp" class="cover"><img src="img/dummies/438x267.gif"  alt="Feature image" /></a>
 										-->
-										<a href="itemPageList.do?classId=15&page=1&locale=${loc}" class="cover"><img src="/images/photos/cata15.jpg"  alt="Feature image" /></a>
+										<a href="itemPageList.do?classId=15&page=1&locale=${loc}" class="cover"><img src="${imagePathBase}/cata15.jpg"  alt="Feature image" /></a>
 									</div>
 									<!-- ENDS project-thumb -->
 									

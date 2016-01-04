@@ -14,11 +14,17 @@
 	<fmt:setLocale value="${loc}" />
 <!-- ENDS i18n -->
 
+<!-- image path -->
+<c:set var="imagePathBase" value="/img/photos"/>
+<!-- ENDS image path -->
+
 <!-- authentication -->
 
 <!-- begin  -->
 
 <!-- ENDS authentication -->
+
+
 
 <head>
 		<meta charset="UTF">
@@ -170,10 +176,9 @@
 			-->
 			
 			<c:forEach var="productList" items="${productList}" begin="0" end="${page.pageSize-1}">
-	                                                              
 			<li class="">
-		    <a onclick="trackItemId(${productList.classId},'${productList.itemName}','${accountName}')" href="/images/photos/full/${productList.classId}/${productList.itemName}.jpg" rel="group1" class="fancybox" title="${productList.itemCode}" >
-		    	<img name="" src="/images/photos/thumbnail/${productList.classId}/${productList.itemName}.jpg" width="133" height="139" alt="${productList.itemCode}">
+		    <a onclick="trackItemId(${productList.classId},'${productList.itemName}','${accountName}')" href="${imagePathBase}/full/${productList.classId}/${productList.itemName}.jpg" rel="group1" class="fancybox" title="${productList.itemCode}" >
+		    	<img name="" src="${imagePathBase}/thumbnail/${productList.classId}/${productList.itemName}.jpg" width="133" height="139" alt="${productList.itemCode}">
 		    </a>
 
 		     		   

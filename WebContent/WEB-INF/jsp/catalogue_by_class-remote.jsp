@@ -15,8 +15,7 @@
 <!-- ENDS i18n -->
 
 <!-- image path -->
-	<c:set var="img_path" value="/images/photos"/>
-
+<c:set var="imagePathBase" value="/img/photos"/>
 <!-- ENDS image path -->
 
 <!-- authentication -->
@@ -175,8 +174,8 @@
 			<c:forEach var="productList" items="${productList}" begin="0" end="${page.pageSize-1}">
 	                                                              
 			<li class="">
-		    <a href="${img_path}/full/${productList.classId}/${productList.itemName}.jpg" rel="group1" class="fancybox" title="${productList.itemCode}">
-		    	<img name="" src="${img_path}/thumbnail/${productList.classId}/${productList.itemName}.jpg" width="133" height="139" alt="${productList.itemCode}">
+		    <a href="${imagePathBase}/full/${productList.classId}/${productList.itemName}.jpg" rel="group1" class="fancybox" title="${productList.itemCode}">
+		    	<img name="" src="${imagePathBase}/thumbnail/${productList.classId}/${productList.itemName}.jpg" width="133" height="139" alt="${productList.itemCode}">
 		    </a>
 
 		     		   
@@ -188,23 +187,7 @@
 	                                                              
 			</c:forEach>
 			
-			<!--  			
-				<li class="pink"><a href="images/prod_large/cata01/160217.jpg" rel="group1" class="fancybox" title="160217.jpg"><img src="images/prod_small/cata01/160217.jpg" alt="Pic"></a></li>
-				<li class="pink"><a href="images/prod_large/cata01/160250.jpg" rel="group1" class="fancybox" title="160250.jpg"><img src="images/prod_small/cata01/160250.jpg" alt="Pic"></a></li>
-				<li class="pink"><a href="images/prod_large/cata01/160350.jpg" rel="group1" class="fancybox" title="160350.jpg"><img src="images/prod_small/cata01/160350.jpg" alt="Pic"></a></li>
-				<li class="blue"><a href="images/prod_large/cata01/160360.jpg" rel="group1" class="fancybox" title="160360.jpg"><img src="images/prod_small/cata01/160360.jpg" alt="Pic"></a></li>
-				<li class="green"><a href="images/prod_large/cata01/160428.jpg" rel="group1" class="fancybox" title="160428.jpg"><img src="images/prod_small/cata01/160428.jpg" alt="Pic"></a></li>
-				<li class="pink"><a href="images/prod_large/cata01/160217.jpg" rel="group1" class="fancybox" title="160217.jpg"><img src="images/prod_small/cata01/160217.jpg" alt="Pic"></a></li>
-				<li class="pink"><a href="images/prod_large/cata01/160250.jpg" rel="group1" class="fancybox" title="160250.jpg"><img src="images/prod_small/cata01/160250.jpg" alt="Pic"></a></li>
-				<li class="pink"><a href="images/prod_large/cata01/160350.jpg" rel="group1" class="fancybox" title="160350.jpg"><img src="images/prod_small/cata01/160350.jpg" alt="Pic"></a></li>
-				<li class="blue"><a href="images/prod_large/cata01/160360.jpg" rel="group1" class="fancybox" title="160360.jpg"><img src="images/prod_small/cata01/160360.jpg" alt="Pic"></a></li>
-				<li class="green"><a href="images/prod_large/cata01/160428.jpg" rel="group1" class="fancybox" title="160428.jpg"><img src="images/prod_small/cata01/160428.jpg" alt="Pic"></a></li>
-				<li class="pink"><a href="images/prod_large/cata01/160217.jpg" rel="group1" class="fancybox" title="160217.jpg"><img src="images/prod_small/cata01/160217.jpg" alt="Pic"></a></li>
-				<li class="pink"><a href="images/prod_large/cata01/160250.jpg" rel="group1" class="fancybox" title="160250.jpg"><img src="images/prod_small/cata01/160250.jpg" alt="Pic"></a></li>
-				<li class="pink"><a href="images/prod_large/cata01/160350.jpg" rel="group1" class="fancybox" title="160350.jpg"><img src="images/prod_small/cata01/160350.jpg" alt="Pic"></a></li>
-				<li class="blue"><a href="images/prod_large/cata01/160360.jpg" rel="group1" class="fancybox" title="160360.jpg"><img src="images/prod_small/cata01/160360.jpg" alt="Pic"></a></li>
-				<li class="green"><a href="images/prod_large/cata01/160428.jpg" rel="group1" class="fancybox" title="160428.jpg"><img src="images/prod_small/cata01/160428.jpg" alt="Pic"></a></li>
-			-->			
+		
 			</ul>
 			<!-- ENDS gallery -->	
 			
