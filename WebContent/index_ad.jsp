@@ -177,7 +177,7 @@
 													<br/>
 													
 													<!-- <a href="contact.do?locale=${loc}" class="link-button"><span>Tel: (514)527-8341 &nbsp;&nbsp;&nbsp; Email: info@zhenimport.com &nbsp;&nbsp;&nbsp; ORDER NOW !</span></a>  -->
-													<a href="contact.do?locale=${loc}" class="link-button"><span>CONTACT US NOW !</span></a>
+													<a href="contact.do?locale=${loc}" class="link-button" onclick="track(contact_us_data);"><span>CONTACT US NOW !</span></a>
 													
 												</div>
 											</div>
@@ -186,24 +186,25 @@
 									
 									<div class="clearfix"></div>
 									<ul class="blocks-thumbs thumbs-rollover">
+									
 										<li>
-											<a href="####" class="thumb" title="An image"><img src="${imageBase}/dummies/282x150.gif" alt="Post" /></a>
+											<a href="javascript:void(0);" onclick="track(prom_prod_data[0]);" class="thumb" title="An image"><img src="${imageBase}/dummies/282x150.gif" alt="Post" /></a>
 											<div class="excerpt">
-												<a href="####" class="header">Your prodcut name</a>
+												<a href="javascript:void(0);" onclick="track(prom_prod_data[0]);" class="header">Your prodcut name</a>
 												Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet
 											</div>
 										</li>
 										<li>
-											<a href="####" class="thumb" title="An image"><img src="${imageBase}/dummies/282x150.gif" alt="Post" /></a>
+											<a href="javascript:void(0);" onclick="track(prom_prod_data[1]);" class="thumb" title="An image"><img src="${imageBase}/dummies/282x150.gif" alt="Post" /></a>
 											<div class="excerpt">
-												<a href="####" class="header">Your prodcut name</a>
+												<a href="javascript:void(0);" onclick="track(prom_prod_data[1]);" class="header">Your prodcut name</a>
 												Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet 
 											</div>
 										</li>
 										<li>
-											<a href="####" class="thumb" title="An image"><img src="${imageBase}/dummies/282x150.gif" alt="Post" /></a>
+											<a href="javascript:void(0);" onclick="track(prom_prod_data[2]);" class="thumb" title="An image"><img src="${imageBase}/dummies/282x150.gif" alt="Post" /></a>
 											<div class="excerpt">
-												<a href="####" class="header">Your prodcut name</a>
+												<a href="javascript:void(0);" onclick="track(prom_prod_data[2]);" class="header">Your prodcut name</a>
 												Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet 
 											</div>
 										</li>
@@ -333,10 +334,30 @@
 	
 	<!-- Web Analytics Tracking Facilities -->
 	<script>
+		/* user information */
 		var user_name = '<c:out value="${accountName}" />';
 		if(user_name==''){
 			user_name = 'guest';
 		}
+		
+		/* promoted product info*/
+		var prom_prod_category_id_list 	= ["1","2","2"];
+		var prom_prod_item_name_list	= ["1-item1","2-item1","2-item2"];
+		var prom_prod_data				= new Array(3);
+		var data_length 				= prom_prod_data.length;
+		
+		for(var i=0; i<data_length; i++){
+			prom_prod_data[i] = {'category_id': prom_prod_category_id_list[i],
+					             'item_name': prom_prod_item_name_list[i]};
+		}		
+		
+		/* hot product info*/
+		var hot_prod_category_id_list 	= ["4","5","5"];
+		var hot_prod_item_name_list		= ["4-item1","5-item1","5-item2"];
+		
+		/* contact us */
+		var contact_us_data				= {'click_category': 'follow up',
+											'click_name':    'contact us'};
 	</script>
 	
 	<!-- GA - Page view -->

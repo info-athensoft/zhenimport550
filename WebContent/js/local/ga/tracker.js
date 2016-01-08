@@ -20,7 +20,21 @@ ga('send', 'pageview');
 
 //clicks   
 function track(data) {
-    ga('send', 'event', 'category: ' + data.category_id, 'item: ' + data.item_name, 'user_name: ' + data_layer.user_name);
+	
+		//alert("ok");
+		
+	   if (!!data.category_id){
+	      ga('send', 'event', 'category: ' + data.category_id, 'item: ' + data.item_name, 'user_name: ' + data_layer.user_name);
+	   }
+	   
+	   if (!!data.click_category){
+	      ga('send', 'event', data.click_category, data.click_name, 'user_name: ' + data_layer.user_name);
+	   }
 }
 
 
+/*
+function testLink(data){
+	alert(data.category_id+" "+data.item_name);
+	//alert("进来了");
+}*/
