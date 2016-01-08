@@ -95,8 +95,9 @@
 		<!-- ENDS poshytip -->
 		
 		<!-- Tweet -->
-		<link rel="stylesheet" href="css/jquery.tweet.css" media="all"  type="text/css"/> 
-		<script src="js/tweet/jquery.tweet.js" type="text/javascript"></script> 
+		<link rel="stylesheet" href="css/jquery.tweet.css" media="all"  type="text/css"/>
+		<script src="js/tweet/jquery.tweet.js" type="text/javascript"></script>
+		 
 		<!-- ENDS Tweet -->
 		
 		<!-- Fancybox -->
@@ -155,9 +156,9 @@
 							<!-- TABS -->
 							<!-- the tabs -->
 							<ul class="tabs">
-								<li><a href="#"><span style="font-size:1.5em">Featured products</span></a></li>
-								<li><a href="#"><span  style="font-size:1.5em">Information</span></a></li>
-								<li><a href="#"><span  style="font-size:1.5em">Recent posts</span></a></li>
+								<li><a href="#"><span style="font-size:1.5em">Promotion</span></a></li>
+								<li><a href="#"><span  style="font-size:1.5em">More Info.</span></a></li>
+								<li><a href="#"><span  style="font-size:1.5em">Hot products</span></a></li>
 							</ul>
 							
 							<!-- tab "panes" -->
@@ -221,7 +222,7 @@
 										<h6>Pellentesque habitant morbi tristique senectus et netus et malesuada.</h6> 
 										<p>Fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus. </p>
 										<p>Fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.Fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper <a href="single.html">This is a link</a>. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus. </p>
-										<a href="single.html" class="link-button"><span>Read more &#8594;</span></a>
+										<a href="single.html" class="link-button"><span>Contact us</span></a>
 									</div>
 								</div>
 								<!-- ENDS Information -->
@@ -230,44 +231,44 @@
 								<div>
 									<ul class="blocks-thumbs thumbs-rollover">
 										<li>
-											<a href="single.html" class="thumb" title="An image"><img src="${imageBase}/dummies/282x150.gif" alt="Post" /></a>
+											<a href="javascript:void(0);" onclick="track(hot_prod_data[0]);" class="thumb" title="An image"><img src="${imageBase}/dummies/282x150.gif" alt="Post" /></a>
 											<div class="excerpt">
-												<a href="single.html" class="header">Lorem ipsum dolor</a>
+												<a href="javascript:void(0);" onclick="track(hot_prod_data[0]);" class="header">Lorem ipsum dolor</a>
 												Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.  
 											</div>
 										</li>
 										<li>
-											<a href="single.html" class="thumb" title="An image"><img src="${imageBase}/dummies/282x150.gif" alt="Post" /></a>
+											<a href="javascript:void(0);" onclick="track(hot_prod_data[1]);" class="thumb" title="An image"><img src="${imageBase}/dummies/282x150.gif" alt="Post" /></a>
 											<div class="excerpt">
-												<a href="single.html" class="header">Lorem ipsum dolor</a>
+												<a href="javascript:void(0);" onclick="track(hot_prod_data[1]);" class="header">Lorem ipsum dolor</a>
 												Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.  
 											</div>
 										</li>
 										<li>
-											<a href="single.html" class="thumb" title="An image"><img src="${imageBase}/dummies/282x150.gif" alt="Post" /></a>
+											<a href="javascript:void(0);" onclick="track(hot_prod_data[2]);" class="thumb" title="An image"><img src="${imageBase}/dummies/282x150.gif" alt="Post" /></a>
 											<div class="excerpt">
-												<a href="single.html" class="header">Lorem ipsum dolor</a>
+												<a href="javascript:void(0);" onclick="track(hot_prod_data[2]);" class="header">Lorem ipsum dolor</a>
 												Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.  
 											</div>
 										</li>
 										<li>
-											<a href="single.html" class="thumb" title="An image"><img src="${imageBase}/dummies/282x150.gif" alt="Post" /></a>
+											<a href="javascript:void(0);" onclick="track(hot_prod_data[3]);" class="thumb" title="An image"><img src="${imageBase}/dummies/282x150.gif" alt="Post" /></a>
 											<div class="excerpt">
-												<a href="single.html" class="header">Lorem ipsum dolor</a>
+												<a href="javascript:void(0);" onclick="track(hot_prod_data[3]);" class="header">Lorem ipsum dolor</a>
 												Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.  
 											</div>
 										</li>
 										<li>
-											<a href="single.html" class="thumb" title="An image"><img src="${imageBase}/dummies/282x150.gif" alt="Post" /></a>
+											<a href="javascript:void(0);" onclick="track(hot_prod_data[4]);" class="thumb" title="An image"><img src="${imageBase}/dummies/282x150.gif" alt="Post" /></a>
 											<div class="excerpt">
-												<a href="single.html" class="header">Lorem ipsum dolor</a>
+												<a href="javascript:void(0);" onclick="track(hot_prod_data[4]);" class="header">Lorem ipsum dolor</a>
 												Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.  
 											</div>
 										</li>
 										<li>
-											<a href="single.html" class="thumb" title="An image"><img src="${imageBase}/dummies/282x150.gif" alt="Post" /></a>
+											<a href="javascript:void(0);" onclick="track(hot_prod_data[5]);" class="thumb" title="An image"><img src="${imageBase}/dummies/282x150.gif" alt="Post" /></a>
 											<div class="excerpt">
-												<a href="single.html" class="header">Lorem ipsum dolor</a>
+												<a href="javascript:void(0);" onclick="track(hot_prod_data[5]);" class="header">Lorem ipsum dolor</a>
 												Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac.  
 											</div>
 										</li>
@@ -332,34 +333,19 @@
 		
 	<!-- ENDS Bottom -->
 	
-	<!-- Web Analytics Tracking Facilities -->
+	
+	<!-- Athensoft UAAS  -->
 	<script>
 		/* user information */
 		var user_name = '<c:out value="${accountName}" />';
 		if(user_name==''){
 			user_name = 'guest';
 		}
-		
-		/* promoted product info*/
-		var prom_prod_category_id_list 	= ["1","2","2"];
-		var prom_prod_item_name_list	= ["1-item1","2-item1","2-item2"];
-		var prom_prod_data				= new Array(3);
-		var data_length 				= prom_prod_data.length;
-		
-		for(var i=0; i<data_length; i++){
-			prom_prod_data[i] = {'category_id': prom_prod_category_id_list[i],
-					             'item_name': prom_prod_item_name_list[i]};
-		}		
-		
-		/* hot product info*/
-		var hot_prod_category_id_list 	= ["4","5","5"];
-		var hot_prod_item_name_list		= ["4-item1","5-item1","5-item2"];
-		
-		/* contact us */
-		var contact_us_data				= {'click_category': 'follow up',
-											'click_name':    'contact us'};
 	</script>
+	<!-- ENDS Athensoft UAAS -->
 	
+	<!-- Web Analytics Tracking Facilities -->
+		
 	<!-- GA - Page view -->
 	<script  type="text/javascript">
 	    var data_layer = {
@@ -367,6 +353,9 @@
 	        "user_name"	: user_name
 		};
 	</script>
+	
+	<!-- tracking data -->
+	<script src="js/local/ga/tracking_data.js" async="true"></script>
 
 	<!-- GA Universal -->
 	<script src="js/local/ga/tracker.js" async="true"></script>

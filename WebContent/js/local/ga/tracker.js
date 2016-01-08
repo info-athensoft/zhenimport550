@@ -36,5 +36,5 @@ function track(data) {
 /*
 function testLink(data){
 	alert(data.category_id+" "+data.item_name);
-	//alert("进来了");
+	//alert("ok");
 }*/
