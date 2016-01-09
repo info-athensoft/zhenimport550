@@ -3,8 +3,6 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 
-
-
 <!DOCTYPE  html>
 <html>
 
@@ -341,6 +339,7 @@
 		if(user_name==''){
 			user_name = 'guest';
 		}
+		var page_name = 'home';
 	</script>
 	<!-- ENDS Athensoft UAAS -->
 	
@@ -348,8 +347,8 @@
 		
 	<!-- GA - Page view -->
 	<script  type="text/javascript">
-	    var data_layer = {
-	        "page_name"	: "home",
+	var data_layer = {
+	        "page_name"	: page_name,
 	        "user_name"	: user_name
 		};
 	</script>

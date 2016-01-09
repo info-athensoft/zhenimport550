@@ -250,59 +250,20 @@
 	
 	
 	
-	<!-- GA Universal -->
-	<script >
-   (function(i, s, o, g, r, a, m) {
-       i['GoogleAnalyticsObject'] = r;
-       i[r] = i[r] || function() {
-           (i[r].q = i[r].q || []).push(arguments)
-       }, i[r].l = 1 * new Date();
-       a = s.createElement(o),
-           m = s.getElementsByTagName(o)[0];
-       a.async = 1;
-       a.src = g;
-       m.parentNode.insertBefore(a, m)
-   })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-	
-	ga('create', 'UA-65001154-2', 'auto');
-	ga('send', 'pageview');
-	ga('set', 'dimension1', datalayer.uname);    //User name
-	ga('set', 'dimension2', datalayer.cid);      //Category ID 
-	ga('set', 'dimension3', datalayer.itemName); //Item name
-	</script>
-	
-	<script>
-		var userName = '<c:out value="${accountName}" />';
-		if(userName==''){
-			userName = 'guest';
-		}
+	<!-- Web Analytics Tracking Facilities -->
 		
-		var datalayer ={
-				cid: 		'',	
-				itemName: 	'',
-				uname:		userName
+	<!-- GA - Page view -->
+	<script  type="text/javascript">
+	var data_layer = {
+	        "page_name"	: page_name,
+	        "user_name"	: user_name
 		};
-	
-		function trackItemId(classId,itemName,userName){
-			//alert(classId+", "+itemName+", "+userName);
-			
-			if(userName==""){
-				userName = 'guest';
-			}
-			datalayer = {
-				cid: 		classId,	
-				itemName: 	itemName,
-				uname:		userName
-			};
-			//alert(datalayer.cid+" , "+datalayer.itemName+", "+datalayer.uname);
-			
-			ga('set', 'dimension1', datalayer.uname);    //User name
-			ga('set', 'dimension2', datalayer.cid);      //Category ID 
-			ga('set', 'dimension3', datalayer.itemName); //Item name
-			
-			//alert(datalayer.cid+" , "+datalayer.itemName+", "+datalayer.uname);
-			
-		}
 	</script>
+	
+	<!-- tracking data -->
+	
+
+	<!-- GA Universal -->
+	<script src="js/local/ga/tracker.js" async="true"></script>
 </body>
 </html>

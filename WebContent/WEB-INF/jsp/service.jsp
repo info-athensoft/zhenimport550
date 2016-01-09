@@ -177,38 +177,32 @@
 	<!-- Bottom -->
 		<jsp:include page="../../g06_bottom_inc.html"></jsp:include>
 	<!-- ENDS Bottom -->
-	
-	<script>
-		var userName = '<c:out value="${accountName}" />';
-		if(userName==''){
-			userName = 'guest';
-		}
-		var datalayer = {
-				cid: 		'',	
-				itemName: 	'',
-				uname:		userName
-			};
 
-	</script>
-	<!-- GA Universal -->
+	<!-- Athensoft UAAS  -->
 	<script>
-   (function(i, s, o, g, r, a, m) {
-       i['GoogleAnalyticsObject'] = r;
-       i[r] = i[r] || function() {
-           (i[r].q = i[r].q || []).push(arguments)
-       }, i[r].l = 1 * new Date();
-       a = s.createElement(o),
-           m = s.getElementsByTagName(o)[0];
-       a.async = 1;
-       a.src = g;
-       m.parentNode.insertBefore(a, m)
-   })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-	
-	ga('create', 'UA-65001154-2', 'auto');
-	ga('send', 'pageview');
-	ga('set', 'dimension1', datalayer.uname);    //User name
-	ga('set', 'dimension2', datalayer.cid);      //Category ID 
-	ga('set', 'dimension3', datalayer.itemName); //Item name
+		/* user information */
+		var user_name = '<c:out value="${accountName}" />';
+		if(user_name==''){
+			user_name = 'guest';
+		}
+		var page_name = 'service';
 	</script>
+	<!-- ENDS Athensoft UAAS -->
+		
+	<!-- Web Analytics Tracking Facilities -->
+		
+	<!-- GA - Page view -->
+	<script  type="text/javascript">
+	var data_layer = {
+	        "page_name"	: page_name,
+	        "user_name"	: user_name
+		};
+	</script>
+	
+	<!-- tracking data -->
+	
+
+	<!-- GA Universal -->
+	<script src="js/local/ga/tracker.js" async="true"></script>
 </body>
 </html>
