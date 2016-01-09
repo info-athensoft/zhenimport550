@@ -171,6 +171,7 @@
 		if(user_name==''){
 			user_name = 'guest';
 		}
+		var page_name = 'news';
 	</script>
 	<!-- ENDS Athensoft UAAS -->
 	
@@ -179,7 +180,7 @@
 	<!-- GA - Page view -->
 	<script  type="text/javascript">
 	    var data_layer = {
-	        "page_name"	: "home",
+	        "page_name"	: page_name,
 	        "user_name"	: user_name
 		};
 	</script>

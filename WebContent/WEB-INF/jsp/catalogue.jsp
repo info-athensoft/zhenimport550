@@ -688,8 +688,19 @@
 		<jsp:include page="../../g06_bottom_inc.html"></jsp:include>
 	<!-- ENDS Bottom -->
 	
-	<!-- Web Analytics Tracking Facilities -->
-		
+	
+	<!-- Athensoft UAAS  -->
+	<script>
+		/* user information */
+		var user_name = '<c:out value="${accountName}" />';
+		if(user_name==''){
+			user_name = 'guest';
+		}
+		var page_name = 'catalogue';
+	</script>
+	<!-- ENDS Athensoft UAAS -->
+	
+	<!-- Web Analytics Tracking Facilities -->		
 	<!-- GA - Page view -->
 	<script  type="text/javascript">
 	var data_layer = {

@@ -201,22 +201,29 @@
 	
 	
 	
-	<!-- Web Analytics Tracking Facilities -->
+	<!-- Athensoft UAAS  -->
 	<script>
+		/* user information */
 		var user_name = '<c:out value="${accountName}" />';
 		if(user_name==''){
 			user_name = 'guest';
 		}
 		var page_name = 'home';
 	</script>
+	<!-- ENDS Athensoft UAAS -->
 	
+	<!-- Web Analytics Tracking Facilities -->
+		
 	<!-- GA - Page view -->
 	<script  type="text/javascript">
-	    var data_layer = {
-	        "page_name"	: page_home,
+	var data_layer = {
+	        "page_name"	: page_name,
 	        "user_name"	: user_name
 		};
 	</script>
+	
+	<!-- tracking data -->
+	<script src="js/local/ga/tracking_data.js" async="true"></script>
 
 	<!-- GA Universal -->
 	<script src="js/local/ga/tracker.js" async="true"></script>

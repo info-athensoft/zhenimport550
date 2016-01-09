@@ -250,6 +250,16 @@
 	<!-- ENDS Bottom -->
 	
 	
+	<!-- Athensoft UAAS  -->
+	<script>
+		/* user information */
+		var user_name = '<c:out value="${accountName}" />';
+		if(user_name==''){
+			user_name = 'guest';
+		}
+		var page_name = '<c:out value="class:${param.classId}" />';
+	</script>
+	<!-- ENDS Athensoft UAAS -->
 	
 	<!-- Web Analytics Tracking Facilities -->
 		
