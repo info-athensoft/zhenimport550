@@ -14,9 +14,9 @@ for(var i=0; i<prod_data_length; i++){
 }		
 
 /* hot product info*/
-var hot_prod_category_id_list 	= ["4","5","5","6","7","7"];
-var hot_prod_item_name_list		= ["4-item1","5-item1","5-item2","6-item1","7-item1","7-item2"];
-var hot_prod_data				= new Array(6);
+var hot_prod_category_id_list 	= ["4","5","5"];
+var hot_prod_item_name_list		= ["4-item1","5-item1","5-item2"];
+var hot_prod_data				= new Array(3);
 var hot_data_length 			= hot_prod_data.length;
 
 for(var i=0; i<hot_data_length; i++){
