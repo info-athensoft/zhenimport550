@@ -20,7 +20,9 @@
 
 <!-- image path -->
 <c:set var="imagePathBase" value="/img/photos"/>
+<c:set var="ad_dir" value="ad2016/campaign01"/>
 <c:set var="imageBase" value="images"/>
+
 <!-- ENDS image path -->
 
 <head>
@@ -166,7 +168,7 @@
 									<ul class="blocks-thumbs-fullwidth thumbs-rollover" style="margin-bottom:0px; padding-bottom:0px;">
 										<li>
 											<!-- <a href="javascript:void(0);" class="thumb1" title="An image"><img src="${imagePathBase}/slide-img-8.png" alt="Post" /></a> -->
-											<img src="${imagePathBase}/slide-img-8.png" alt="Post" />
+											<img src="${imagePathBase}/${ad_dir}/ad-03.jpg" alt="Post" />
 											<div class="excerpt" style="text-align:center">
 												<div align="center">
 													<h4>Promoted items : Cylinder Vase</h4>
@@ -178,7 +180,7 @@
 									<div class="clearfix"></div>
 									<ul class="blocks-thumbs thumbs-rollover">
 										<li>
-											<a href="itemPageList.do?classId=1&page=1&locale=${loc}" onclick="track(prom_prod_data[0]);" class="thumb" title="An image"><img src="${imageBase}/dummies/282x150.gif" alt="Post" /></a>
+											<a href="itemPageList.do?classId=1&page=1&locale=${loc}" onclick="track(prom_prod_data[0]);" class="thumb" title="An image"><img src="${imagePathBase}/${ad_dir}/1.jpg" alt="Post" /></a>
 											<div class="excerpt">
 												<div align="center"><h6>182420</h6>
 												18/case<br/>4”X8”H Cylinder vase <br/>Reg. <span style="text-decoration: line-through;">$5.00/ea.</span>&nbsp;&nbsp;&nbsp; <strong>Special. $3.95/ea.</strong>
@@ -186,7 +188,7 @@
 											</div>
 										</li>
 										<li>
-											<a href="itemPageList.do?classId=1&page=1&locale=${loc}" onclick="track(prom_prod_data[1]);" class="thumb" title="An image"><img src="${imageBase}/dummies/282x150.gif" alt="Post" /></a>
+											<a href="itemPageList.do?classId=1&page=1&locale=${loc}" onclick="track(prom_prod_data[1]);" class="thumb" title="An image"><img src="${imagePathBase}/${ad_dir}/2.jpg" alt="Post" /></a>
 											<div class="excerpt">
 												<div align="center"><h6>182425</h6>
 												 16/case<br/>4”x10”H Cylinder vase <br/>Reg. <span style="text-decoration: line-through;">$5.50/ea.</span>&nbsp;&nbsp;&nbsp; <strong>Special. $4.50/ea.</strong>
@@ -194,7 +196,7 @@
 											</div>
 										</li>
 										<li>
-											<a href="itemPageList.do?classId=1&page=1&locale=${loc}" onclick="track(prom_prod_data[2]);" class="thumb" title="An image"><img src="${imageBase}/dummies/282x150.gif" alt="Post" /></a>
+											<a href="itemPageList.do?classId=1&page=1&locale=${loc}" onclick="track(prom_prod_data[2]);" class="thumb" title="An image"><img src="${imagePathBase}/${ad_dir}/3.jpg" alt="Post" /></a>
 											<div class="excerpt">
 												<div align="center"><h6>182430</h6>
 												12/case<br/>4”x12”H Cylinder vase <br/>Reg. <span style="text-decoration: line-through;">$6.00/ea.</span>&nbsp;&nbsp;&nbsp; <strong>Special. $5.00/ea.</strong>
@@ -225,7 +227,7 @@
 									<h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hot products</h6>
 									<ul class="blocks-thumbs thumbs-rollover">
 										<li>
-											<a href="itemPageList.do?classId=1&page=1&locale=${loc}" onclick="track(hot_prod_data[0]);" class="thumb" title="An image"><img src="${imageBase}/dummies/282x150.gif" alt="Post" /></a>
+											<a href="itemPageList.do?classId=1&page=1&locale=${loc}" onclick="track(hot_prod_data[0]);" class="thumb" title="An image"><img src="${imagePathBase}/${ad_dir}/h1.jpg" alt="Post" /></a>
 											<div class="excerpt">
 												<div align="center">
 												<h6>Color Vase</h6>
@@ -233,7 +235,7 @@
 											</div>
 										</li>
 										<li>
-											<a href="itemPageList.do?classId=1&page=1&locale=${loc}" onclick="track(hot_prod_data[1]);" class="thumb" title="An image"><img src="${imageBase}/dummies/282x150.gif" alt="Post" /></a>
+											<a href="itemPageList.do?classId=1&page=1&locale=${loc}" onclick="track(hot_prod_data[1]);" class="thumb" title="An image"><img src="${imagePathBase}/${ad_dir}/h2.jpg" alt="Post" /></a>
 											<div class="excerpt">
 												<div align="center">
 												<h6>Mirror Vase</h6>
@@ -241,7 +243,7 @@
 											</div>
 										</li>
 										<li>
-											<a href="itemPageList.do?classId=11&page=1&locale=${loc}" onclick="track(hot_prod_data[2]);" class="thumb" title="An image"><img src="${imageBase}/dummies/282x150.gif" alt="Post" /></a>
+											<a href="itemPageList.do?classId=11&page=1&locale=${loc}" onclick="track(hot_prod_data[2]);" class="thumb" title="An image"><img src="${imagePathBase}/${ad_dir}/h3.jpg" alt="Post" /></a>
 											<div class="excerpt">
 												<div align="center">
 												<h6>Mini Plant</h6>
