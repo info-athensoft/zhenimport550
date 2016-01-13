@@ -13,7 +13,7 @@
 })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
 //page views
-ga('create', 'UA-65001154-3', 'auto');
+ga('create', 'UA-65001154-2', 'auto');
 ga('set', 'title', data_layer.page_name);
 ga('set', 'dimension1', data_layer.user_name);
 ga('send', 'pageview');
