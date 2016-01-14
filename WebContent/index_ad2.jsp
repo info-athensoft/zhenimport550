@@ -171,7 +171,7 @@
 											<img src="${imagePathBase}/${ad_dir}/ad-03.jpg" alt="Post" />
 											<div class="excerpt" style="text-align:center">
 												<div align="center">
-													<h4>Promoted items : Cylinder Vase</h4>
+													<h4><spring:message code="campaign_title"/></h4>
 												</div>
 											</div>
 										</li>
@@ -183,7 +183,7 @@
 											<a href="itemPageList.do?classId=1&page=1&locale=${loc}" onclick="track(prom_prod_data[0]);" class="thumb" title="An image"><img src="${imagePathBase}/${ad_dir}/1.jpg" alt="Post" /></a>
 											<div class="excerpt">
 												<div align="center"><h6>182420</h6>
-												18/case<br/>4”X8”H Cylinder vase <br/>Reg. <span style="text-decoration: line-through;">$5.00/ea.</span>&nbsp;&nbsp;&nbsp; <strong>Special. $3.95/ea.</strong>
+												18/case<br/>4”X8”H <spring:message code="prom_prod_name_01"/> <br/><spring:message code="regular_short"/> <span style="text-decoration: line-through;">$5.00/<spring:message code="each_short"/></span>&nbsp;&nbsp;&nbsp; <strong><spring:message code="special_short"/> $3.95/<spring:message code="each_short"/></strong>
 												</div>
 											</div>
 										</li>
@@ -191,7 +191,7 @@
 											<a href="itemPageList.do?classId=1&page=1&locale=${loc}" onclick="track(prom_prod_data[1]);" class="thumb" title="An image"><img src="${imagePathBase}/${ad_dir}/2.jpg" alt="Post" /></a>
 											<div class="excerpt">
 												<div align="center"><h6>182425</h6>
-												 16/case<br/>4”x10”H Cylinder vase <br/>Reg. <span style="text-decoration: line-through;">$5.50/ea.</span>&nbsp;&nbsp;&nbsp; <strong>Special. $4.50/ea.</strong>
+												 16/case<br/>4”x10”H <spring:message code="prom_prod_name_02"/> <br/><spring:message code="regular_short"/> <span style="text-decoration: line-through;">$5.50/<spring:message code="each_short"/></span>&nbsp;&nbsp;&nbsp; <strong><spring:message code="special_short"/> $4.50/<spring:message code="each_short"/></strong>
 												</div>
 											</div>
 										</li>
@@ -199,7 +199,7 @@
 											<a href="itemPageList.do?classId=1&page=1&locale=${loc}" onclick="track(prom_prod_data[2]);" class="thumb" title="An image"><img src="${imagePathBase}/${ad_dir}/3.jpg" alt="Post" /></a>
 											<div class="excerpt">
 												<div align="center"><h6>182430</h6>
-												12/case<br/>4”x12”H Cylinder vase <br/>Reg. <span style="text-decoration: line-through;">$6.00/ea.</span>&nbsp;&nbsp;&nbsp; <strong>Special. $5.00/ea.</strong>
+												12/case<br/>4”x12”H <spring:message code="prom_prod_name_03"/> <br/><spring:message code="regular_short"/> <span style="text-decoration: line-through;">$6.00/<spring:message code="each_short"/></span>&nbsp;&nbsp;&nbsp; <strong><spring:message code="special_short"/> $5.00/<spring:message code="each_short"/></strong>
 												</div>
 											</div>
 										</li>
@@ -210,11 +210,11 @@
 										<li>
 											<div class="excerpt" style="text-align:center">
 												<div align="center">													
-													<a href="contact.do?locale=${loc}" class="link-button" onclick="track(contact_us_data);"><span>CONTACT US NOW !</span></a>
+													<a href="contact.do?locale=${loc}" class="link-button" onclick="track(contact_us_data);"><span><spring:message code="button_contact"/></span></a>
 												</div>
 												<div align="left">
 													<br/>
-													<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mention this promotion when ordering. &nbsp;&nbsp;&nbsp;&nbsp;Quantity limited.&nbsp;&nbsp;&nbsp;&nbsp;Member only.</p>
+													<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><spring:message code="condition_policy"/></p>
 													<br/>
 												</div>
 											</div>
@@ -224,13 +224,13 @@
 									<div class="clearfix"><hr/></div>
 																	
 									<!-- hot products -->									
-									<h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hot products</h6>
+									<h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="hot_prod_title"/></h6>
 									<ul class="blocks-thumbs thumbs-rollover">
 										<li>
 											<a href="itemPageList.do?classId=1&page=1&locale=${loc}" onclick="track(hot_prod_data[0]);" class="thumb" title="An image"><img src="${imagePathBase}/${ad_dir}/h1.jpg" alt="Post" /></a>
 											<div class="excerpt">
 												<div align="center">
-												<h6>Color Vase</h6>
+												<h6><spring:message code="hot_prod_name_01"/></h6>
 												</div>
 											</div>
 										</li>
@@ -238,7 +238,7 @@
 											<a href="itemPageList.do?classId=1&page=1&locale=${loc}" onclick="track(hot_prod_data[1]);" class="thumb" title="An image"><img src="${imagePathBase}/${ad_dir}/h2.jpg" alt="Post" /></a>
 											<div class="excerpt">
 												<div align="center">
-												<h6>Mirror Vase</h6>
+												<h6><spring:message code="hot_prod_name_02"/></h6>
 												</div>
 											</div>
 										</li>
@@ -246,7 +246,7 @@
 											<a href="itemPageList.do?classId=11&page=1&locale=${loc}" onclick="track(hot_prod_data[2]);" class="thumb" title="An image"><img src="${imagePathBase}/${ad_dir}/h3.jpg" alt="Post" /></a>
 											<div class="excerpt">
 												<div align="center">
-												<h6>Mini Plant</h6>
+												<h6><spring:message code="hot_prod_name_03"/></h6>
 												</div>
 											</div>
 										</li>

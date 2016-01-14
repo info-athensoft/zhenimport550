@@ -15,6 +15,7 @@
 			<list>
 				<value>com/athensoft/ecomm/resources/zhenimport</value>
 				<value>com/athensoft/ecomm/resources/errorcodes</value>
+				<value>com/athensoft/ecomm/resources/ad</value>
 			</list>
 		</property>
 	</bean>
