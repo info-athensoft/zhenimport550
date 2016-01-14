@@ -190,7 +190,7 @@
 	<!-- GA - Page view -->
 	<script  type="text/javascript">
 	    var data_layer = {
-	        "page_name"	: "home",
+	        "page_name"	: "contact",
 	        "user_name"	: user_name
 		};
 	</script>
