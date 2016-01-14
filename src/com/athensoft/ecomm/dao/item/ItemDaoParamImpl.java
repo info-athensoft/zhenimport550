@@ -246,6 +246,7 @@ public class ItemDaoParamImpl implements ItemDao {
 			obj.setItemCode(rs.getString("ItemCode"));
 			obj.setItemName(rs.getString("ItemName"));
 			obj.setClassId(rs.getInt("classId"));			
+			obj.setClassName(rs.getString("className"));			
 			obj.setSpec(rs.getString("spec"));
 			obj.setPacking(rs.getString("packing"));
 			obj.setItemDesc(rs.getString("itemDesc"));//added by Athens 2013-03-24 @ 16:35
