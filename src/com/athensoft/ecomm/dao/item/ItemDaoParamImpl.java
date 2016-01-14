@@ -50,6 +50,25 @@ public class ItemDaoParamImpl implements ItemDao {
 		return jdbc.query(sql, new ItemRowMapper());
 	}
 	
+	/* modified by Athens on 2016-01-13 */
+	@Override
+	public List<Item> findByPage(int classId, PageBean page){
+		String sql = "select itemId,itemCode,itemName,spec,packing,classId,categoryCode,seqno,itemDesc,className "
+				   + "from view_item_itemclass where 1=1 "
+				   + "and classId = :classId "
+				   + "and itemStatusId = :itemStatusId "
+				   + "order by categoryCode,seqno,itemCode "
+				   + "limit :startPageNo , :pageSize";
+		
+		MapSqlParameterSource paramSource = new MapSqlParameterSource();
+		paramSource.addValue("classId", classId);
+		paramSource.addValue("itemStatusId", 1);  //itemStatusId=1 (available)		
+		paramSource.addValue("startPageNo", page.getStart());  //itemStatusId=1 (available)		
+		paramSource.addValue("pageSize", page.getPageSize());  //itemStatusId=1 (available)		
+		return jdbc.query(sql, paramSource, new ItemRowMapper());
+	}
+	
+	/*
 	public List<Item> findByPage(int classId, PageBean page){
 		String sql = "select itemId,itemCode,itemName,spec,packing,classId,categoryCode,seqno,itemDesc "
 				   + "from item where 1=1 "
@@ -64,7 +83,7 @@ public class ItemDaoParamImpl implements ItemDao {
 		paramSource.addValue("startPageNo", page.getStart());  //itemStatusId=1 (available)		
 		paramSource.addValue("pageSize", page.getPageSize());  //itemStatusId=1 (available)		
 		return jdbc.query(sql, paramSource, new ItemRowMapper());
-	}
+	}*/
 	
 	@Override
 	public Item findById(int itemId) {

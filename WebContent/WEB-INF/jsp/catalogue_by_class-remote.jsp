@@ -174,7 +174,7 @@
 			<c:forEach var="productList" items="${productList}" begin="0" end="${page.pageSize-1}">
 	                                                              
 			<li class="">
-		    <a onclick="track_item_by_click(${productList.classId},'${productList.itemName}');" href="${imagePathBase}/full/${productList.classId}/${productList.itemName}.jpg" rel="group1" class="fancybox" title="${productList.itemCode}">
+		    <a onclick="track_item_by_click(${productList.className},'${productList.itemName}');" href="${imagePathBase}/full/${productList.classId}/${productList.itemName}.jpg" rel="group1" class="fancybox" title="${productList.itemCode}">
 		    	<img name="" src="${imagePathBase}/thumbnail/${productList.classId}/${productList.itemName}.jpg" width="133" height="139" alt="${productList.itemCode}">
 		    </a>
 
@@ -256,6 +256,7 @@
 	
 	<!-- tracking data -->
 	<script  type="text/javascript">	
+	/*
 	function track_item_by_click(category_id, item_name){
 		var item_data = {
 		        "category_id"	: category_id,
@@ -263,7 +264,15 @@
 		        "user_name"		: user_name
 			};
 		track(item_data);
-	}	
+	}*/
+	function track_item_by_click(category_name, item_name){
+		var item_data = {
+		        "category_name"	: category_name,
+		        "item_name"		: item_name,
+		        "user_name"		: user_name
+			};
+		track(item_data);
+	}
 	</script>
 
 	<!-- GA Universal -->

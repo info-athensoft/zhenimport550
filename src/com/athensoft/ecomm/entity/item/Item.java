@@ -20,6 +20,9 @@ public class Item {
 	private int 	itemStatusId;
 	private String  itemDesc;		//possibly equals to spec plus packing
 	
+	/* added by Athens for GA report to replace category_id with category_name */
+	private String  className;		
+	
 	//getter and setter
 	public long getItemId() {
 		return itemId;
@@ -80,6 +83,12 @@ public class Item {
 	}
 	public void setItemStatusId(int itemStatusId) {
 		this.itemStatusId = itemStatusId;
+	}
+	public String getClassName() {
+		return className;
+	}
+	public void setClassName(String className) {
+		this.className = className;
 	}	
 	
 }
