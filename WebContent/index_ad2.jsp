@@ -183,7 +183,7 @@
 											<a href="itemPageList.do?classId=1&page=1&locale=${loc}" onclick="track(prom_prod_data[0]);" class="thumb" title="An image"><img src="${imagePathBase}/${ad_dir}/1.jpg" alt="Post" /></a>
 											<div class="excerpt">
 												<div align="center"><h6>182420</h6>
-												18/<spring:message code="packing_unit"/><br/>4”X8”H <spring:message code="prom_prod_name_01"/> <br/><spring:message code="regular_short"/> <span style="text-decoration: line-through;">$5.00/<spring:message code="each_short"/></span>&nbsp;&nbsp;&nbsp; <strong><spring:message code="special_short"/> $3.95/<spring:message code="each_short"/></strong>
+												18/<spring:message code="packing_unit"/><br/>4"X8"H <spring:message code="prom_prod_name_01"/> <br/><spring:message code="regular_short"/> <span style="text-decoration: line-through;">$5.00/<spring:message code="each_short"/></span>&nbsp;&nbsp;&nbsp; <strong><spring:message code="special_short"/> $3.50/<spring:message code="each_short"/></strong>
 												</div>
 											</div>
 										</li>
@@ -191,7 +191,7 @@
 											<a href="itemPageList.do?classId=1&page=1&locale=${loc}" onclick="track(prom_prod_data[1]);" class="thumb" title="An image"><img src="${imagePathBase}/${ad_dir}/2.jpg" alt="Post" /></a>
 											<div class="excerpt">
 												<div align="center"><h6>182425</h6>
-												 16/<spring:message code="packing_unit"/><br/>4”x10”H <spring:message code="prom_prod_name_02"/> <br/><spring:message code="regular_short"/> <span style="text-decoration: line-through;">$5.50/<spring:message code="each_short"/></span>&nbsp;&nbsp;&nbsp; <strong><spring:message code="special_short"/> $4.50/<spring:message code="each_short"/></strong>
+												 16/<spring:message code="packing_unit"/><br/>4"x10"H <spring:message code="prom_prod_name_02"/> <br/><spring:message code="regular_short"/> <span style="text-decoration: line-through;">$5.50/<spring:message code="each_short"/></span>&nbsp;&nbsp;&nbsp; <strong><spring:message code="special_short"/> $3.85/<spring:message code="each_short"/></strong>
 												</div>
 											</div>
 										</li>
@@ -199,7 +199,7 @@
 											<a href="itemPageList.do?classId=1&page=1&locale=${loc}" onclick="track(prom_prod_data[2]);" class="thumb" title="An image"><img src="${imagePathBase}/${ad_dir}/3.jpg" alt="Post" /></a>
 											<div class="excerpt">
 												<div align="center"><h6>182430</h6>
-												12/<spring:message code="packing_unit"/><br/>4”x12”H <spring:message code="prom_prod_name_03"/> <br/><spring:message code="regular_short"/> <span style="text-decoration: line-through;">$6.00/<spring:message code="each_short"/></span>&nbsp;&nbsp;&nbsp; <strong><spring:message code="special_short"/> $5.00/<spring:message code="each_short"/></strong>
+												12/<spring:message code="packing_unit"/><br/>4"x12"H <spring:message code="prom_prod_name_03"/> <br/><spring:message code="regular_short"/> <span style="text-decoration: line-through;">$6.00/<spring:message code="each_short"/></span>&nbsp;&nbsp;&nbsp; <strong><spring:message code="special_short"/> $4.20/<spring:message code="each_short"/></strong>
 												</div>
 											</div>
 										</li>
