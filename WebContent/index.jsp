@@ -3,8 +3,6 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 
-
-
 <!DOCTYPE  html>
 <html>
 
@@ -22,7 +20,9 @@
 
 <!-- image path -->
 <c:set var="imagePathBase" value="/img/photos"/>
+<c:set var="ad_dir" value="ad2016/campaign01"/>
 <c:set var="imageBase" value="images"/>
+
 <!-- ENDS image path -->
 
 <head>
@@ -95,8 +95,9 @@
 		<!-- ENDS poshytip -->
 		
 		<!-- Tweet -->
-		<link rel="stylesheet" href="css/jquery.tweet.css" media="all"  type="text/css"/> 
-		<script src="js/tweet/jquery.tweet.js" type="text/javascript"></script> 
+		<link rel="stylesheet" href="css/jquery.tweet.css" media="all"  type="text/css"/>
+		<script src="js/tweet/jquery.tweet.js" type="text/javascript"></script>
+		 
 		<!-- ENDS Tweet -->
 		
 		<!-- Fancybox -->
@@ -150,7 +151,118 @@
 				
 				<!-- removed by Athens @ 2013-03-23 11:59 -->
 				<!-- content -->
+					<div id="content">
+						
+							<!-- TABS -->
+							<!-- the tabs -->
+							<ul class="tabs">
+								<!-- <li><a href="#"><span style="font-size:1.5em">Promotion</span></a></li>   -->
+							</ul>
+							
+							<!-- tab "panes" -->
+							<div class="panes">
+							
+								<!-- Promotion -->
+								<div>
+									<br/>
+									<ul class="blocks-thumbs-fullwidth thumbs-rollover" style="margin-bottom:0px; padding-bottom:0px;">
+										<li>
+											<!-- <a href="javascript:void(0);" class="thumb1" title="An image"><img src="${imagePathBase}/slide-img-8.png" alt="Post" /></a> -->
+											<img src="${imagePathBase}/${ad_dir}/ad-03.jpg" alt="Post" />
+											<div class="excerpt" style="text-align:center">
+												<div align="center">
+													<h4><spring:message code="campaign_title"/></h4>
+												</div>
+											</div>
+										</li>
+									</ul>
+									
+									<div class="clearfix"></div>
+									<ul class="blocks-thumbs thumbs-rollover">
+										<li>
+											<a href="itemPageList.do?classId=1&page=1&locale=${loc}" onclick="track(prom_prod_data[0]);" class="thumb" title="An image"><img src="${imagePathBase}/${ad_dir}/1.jpg" alt="Post" /></a>
+											<div class="excerpt">
+												<div align="center"><h6>182420</h6>
+												18/<spring:message code="packing_unit"/><br/>4"X8"H <spring:message code="prom_prod_name_01"/> <br/><spring:message code="regular_short"/> <span style="text-decoration: line-through;">$5.00/<spring:message code="each_short"/></span>&nbsp;&nbsp;&nbsp; <strong><spring:message code="special_short"/> $3.50/<spring:message code="each_short"/></strong>
+												</div>
+											</div>
+										</li>
+										<li>
+											<a href="itemPageList.do?classId=1&page=1&locale=${loc}" onclick="track(prom_prod_data[1]);" class="thumb" title="An image"><img src="${imagePathBase}/${ad_dir}/2.jpg" alt="Post" /></a>
+											<div class="excerpt">
+												<div align="center"><h6>182425</h6>
+												 16/<spring:message code="packing_unit"/><br/>4"x10"H <spring:message code="prom_prod_name_02"/> <br/><spring:message code="regular_short"/> <span style="text-decoration: line-through;">$5.50/<spring:message code="each_short"/></span>&nbsp;&nbsp;&nbsp; <strong><spring:message code="special_short"/> $3.85/<spring:message code="each_short"/></strong>
+												</div>
+											</div>
+										</li>
+										<li>
+											<a href="itemPageList.do?classId=1&page=1&locale=${loc}" onclick="track(prom_prod_data[2]);" class="thumb" title="An image"><img src="${imagePathBase}/${ad_dir}/3.jpg" alt="Post" /></a>
+											<div class="excerpt">
+												<div align="center"><h6>182430</h6>
+												12/<spring:message code="packing_unit"/><br/>4"x12"H <spring:message code="prom_prod_name_03"/> <br/><spring:message code="regular_short"/> <span style="text-decoration: line-through;">$6.00/<spring:message code="each_short"/></span>&nbsp;&nbsp;&nbsp; <strong><spring:message code="special_short"/> $4.20/<spring:message code="each_short"/></strong>
+												</div>
+											</div>
+										</li>
+									</ul>									
+									
+									<div class="clearfix"><br/></div>
+									<ul>
+										<li>
+											<div class="excerpt" style="text-align:center">
+												<div align="center">													
+													<a href="contact.do?locale=${loc}" class="link-button" onclick="track(contact_us_data);"><span><spring:message code="button_contact"/></span></a>
+												</div>
+												<div align="left">
+													<br/>
+													<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><spring:message code="condition_policy"/></p>
+													<br/>
+												</div>
+											</div>
+										</li>
+									</ul>
+									
+									<div class="clearfix"><hr/></div>
+																	
+									<!-- hot products -->									
+									<h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="hot_prod_title"/></h6>
+									<ul class="blocks-thumbs thumbs-rollover">
+										<li>
+											<a href="itemPageList.do?classId=1&page=1&locale=${loc}" onclick="track(hot_prod_data[0]);" class="thumb" title="An image"><img src="${imagePathBase}/${ad_dir}/h1.jpg" alt="Post" /></a>
+											<div class="excerpt">
+												<div align="center">
+												<h6><spring:message code="hot_prod_name_01"/></h6>
+												</div>
+											</div>
+										</li>
+										<li>
+											<a href="itemPageList.do?classId=1&page=1&locale=${loc}" onclick="track(hot_prod_data[1]);" class="thumb" title="An image"><img src="${imagePathBase}/${ad_dir}/h2.jpg" alt="Post" /></a>
+											<div class="excerpt">
+												<div align="center">
+												<h6><spring:message code="hot_prod_name_02"/></h6>
+												</div>
+											</div>
+										</li>
+										<li>
+											<a href="itemPageList.do?classId=11&page=1&locale=${loc}" onclick="track(hot_prod_data[2]);" class="thumb" title="An image"><img src="${imagePathBase}/${ad_dir}/h3.jpg" alt="Post" /></a>
+											<div class="excerpt">
+												<div align="center">
+												<h6><spring:message code="hot_prod_name_03"/></h6>
+												</div>
+											</div>
+										</li>
+									</ul>
+									<!-- ENDS hot products -->
+								</div>
+								<!-- ENDS Promotion -->
+								
+								
+							</div>
+							<!-- ENDS TABS -->
+					</div>
 				<!-- ENDS content -->
+				
+				
+				
 				
 				<!-- headline -->
 				<div class="clear"><hr/></div>
@@ -200,7 +312,6 @@
 	<!-- ENDS Bottom -->
 	
 	
-	
 	<!-- Athensoft UAAS  -->
 	<script>
 		/* user information */
@@ -224,7 +335,7 @@
 	
 	<!-- tracking data -->
 	<script src="js/local/ga/tracking_data.js" async="true"></script>
-
+	
 	<!-- GA Universal -->
 	<script src="js/local/ga/tracker.js" async="true"></script>
 </body>

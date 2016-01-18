@@ -2,7 +2,7 @@ build/
 
 .settings/
 
-WebContent/WEB-INF/lib/
+#WebContent/WEB-INF/lib/
 .project
 .classpath
 
