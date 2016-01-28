@@ -20,7 +20,7 @@
 
 <!-- image path -->
 <c:set var="imagePathBase" value="/img/photos"/>
-<c:set var="ad_dir" value="ad2016/campaign02"/>
+<c:set var="ad_dir" value="ad2016/campaign01"/>
 <c:set var="imageBase" value="images"/>
 
 <!-- ENDS image path -->
