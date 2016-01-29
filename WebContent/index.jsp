@@ -168,7 +168,7 @@
 									<ul class="blocks-thumbs-fullwidth thumbs-rollover" style="margin-bottom:0px; padding-bottom:0px;">
 										<li>
 											<!-- <a href="javascript:void(0);" class="thumb1" title="An image"><img src="${imagePathBase}/slide-img-8.png" alt="Post" /></a> -->
-											<img src="${imagePathBase}/${ad_dir}/ad-03.jpg" alt="Post" />
+											<img src="${imagePathBase}/${ad_dir}/ad-01.jpg" alt="Post" />
 											<div class="excerpt" style="text-align:center">
 												<div align="center">
 													<h4><spring:message code="campaign_title"/></h4>
@@ -182,24 +182,24 @@
 										<li>
 											<a href="itemPageList.do?classId=1&page=1&locale=${loc}" onclick="track(prom_prod_data[0]);" class="thumb" title="An image"><img src="${imagePathBase}/${ad_dir}/1.jpg" alt="Post" /></a>
 											<div class="excerpt">
-												<div align="center"><h6>182420</h6>
-												18/<spring:message code="packing_unit"/><br/>4"X8"H <spring:message code="prom_prod_name_01"/> <br/><spring:message code="regular_short"/> <span style="text-decoration: line-through;">$5.00/<spring:message code="each_short"/></span>&nbsp;&nbsp;&nbsp; <strong><spring:message code="special_short"/> $3.50/<spring:message code="each_short"/></strong>
+												<div align="center"><h6>15PSR-Red</h6>
+												5/8" <spring:message code="prom_prod_name_01"/> <br/><spring:message code="regular_short"/> <span style="text-decoration: line-through;">$8.95/<spring:message code="each_short"/></span>&nbsp;&nbsp;&nbsp; <strong><spring:message code="special_short"/> $6.95/<spring:message code="each_short"/></strong>
 												</div>
 											</div>
 										</li>
 										<li>
 											<a href="itemPageList.do?classId=1&page=1&locale=${loc}" onclick="track(prom_prod_data[1]);" class="thumb" title="An image"><img src="${imagePathBase}/${ad_dir}/2.jpg" alt="Post" /></a>
 											<div class="excerpt">
-												<div align="center"><h6>182425</h6>
-												 16/<spring:message code="packing_unit"/><br/>4"x10"H <spring:message code="prom_prod_name_02"/> <br/><spring:message code="regular_short"/> <span style="text-decoration: line-through;">$5.50/<spring:message code="each_short"/></span>&nbsp;&nbsp;&nbsp; <strong><spring:message code="special_short"/> $3.85/<spring:message code="each_short"/></strong>
+												<div align="center"><h6>FB1025RED</h6>
+												 10" <spring:message code="prom_prod_name_02"/> <br/><spring:message code="regular_short"/> <span style="text-decoration: line-through;">$25.00/<spring:message code="each_short"/></span>&nbsp;&nbsp;&nbsp; <strong><spring:message code="special_short"/> $20.00/<spring:message code="each_short"/></strong>
 												</div>
 											</div>
 										</li>
 										<li>
 											<a href="itemPageList.do?classId=1&page=1&locale=${loc}" onclick="track(prom_prod_data[2]);" class="thumb" title="An image"><img src="${imagePathBase}/${ad_dir}/3.jpg" alt="Post" /></a>
 											<div class="excerpt">
-												<div align="center"><h6>182430</h6>
-												12/<spring:message code="packing_unit"/><br/>4"x12"H <spring:message code="prom_prod_name_03"/> <br/><spring:message code="regular_short"/> <span style="text-decoration: line-through;">$6.00/<spring:message code="each_short"/></span>&nbsp;&nbsp;&nbsp; <strong><spring:message code="special_short"/> $4.20/<spring:message code="each_short"/></strong>
+												<div align="center"><h6>CB50-Red</h6>
+												6' <spring:message code="prom_prod_name_03"/> <br/><spring:message code="regular_short"/> <span style="text-decoration: line-through;">$7.95/<spring:message code="each_short"/></span>&nbsp;&nbsp;&nbsp; <strong><spring:message code="special_short"/> $5.95/<spring:message code="each_short"/></strong>
 												</div>
 											</div>
 										</li>
