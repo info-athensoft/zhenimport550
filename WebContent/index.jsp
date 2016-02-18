@@ -20,10 +20,29 @@
 
 <!-- image path -->
 <c:set var="imagePathBase" value="/img/photos"/>
-<c:set var="ad_dir" value="ad2016/campaign02"/>
+<c:set var="ad_dir" value="ad2016/campaign"/>
 <c:set var="imageBase" value="images"/>
 
 <!-- ENDS image path -->
+
+<!-- ad info -->
+<c:set var="promoProdCode_1" value="YQ90020"/>
+<c:set var="promoProdCode_2" value="YQ90021"/>
+<c:set var="promoProdCode_3" value="YQ90022"/>
+
+<c:set var="promoProdSpec_1" value='4"x4"x4"H'/>
+<c:set var="promoProdSpec_2" value='5"x5"x5"H'/>
+<c:set var="promoProdSpec_3" value='6"x6"x6"H'/>
+
+<c:set var="promoProdRegPrice_1" value='$6.50'/>
+<c:set var="promoProdRegPrice_2" value='$8.50'/>
+<c:set var="promoProdRegPrice_3" value='$10.95'/>
+
+<c:set var="promoProdSpePrice_1" value='$4.95'/>
+<c:set var="promoProdSpePrice_2" value='$6.75'/>
+<c:set var="promoProdSpePrice_3" value='$8.75'/>
+
+<!-- ENDS ad info -->
 
 <head>
 		<!-- <meta charset="UTF"> -->
@@ -172,6 +191,7 @@
 											<div class="excerpt" style="text-align:center">
 												<div align="center">
 													<h4><spring:message code="campaign_title"/></h4>
+													<p><spring:message code="campaign_desc"/></p>
 												</div>
 											</div>
 										</li>
@@ -180,26 +200,26 @@
 									<div class="clearfix"></div>
 									<ul class="blocks-thumbs thumbs-rollover">
 										<li>
-											<a href="itemPageList.do?classId=9&page=1&locale=${loc}" onclick="track(prom_prod_data[0]);" class="thumb" title="An image"><img src="${imagePathBase}/${ad_dir}/1.jpg" alt="Post" /></a>
+											<a href="itemPageList.do?classId=1&page=1&locale=${loc}" onclick="track(prom_prod_data[0]);" class="thumb" title="An image"><img src="${imagePathBase}/${ad_dir}/1.jpg" alt="Post" /></a>
 											<div class="excerpt">
-												<div align="center"><h6>15PSR-Red</h6>
-												5/8" <spring:message code="prom_prod_name_01"/> <br/><spring:message code="regular_short"/> <span style="text-decoration: line-through;">$8.95/<spring:message code="each_short"/></span>&nbsp;&nbsp;&nbsp; <strong><spring:message code="special_short"/> $6.95/<spring:message code="each_short"/></strong>
+												<div align="center"><h6><c:out value="${promoProdCode_1}"/></h6>
+												<c:out value="${promoProdSpec_1}"/> <spring:message code="prom_prod_name_01"/> <br/><spring:message code="regular_short"/> <span style="text-decoration: line-through;"><c:out value="${promoProdRegPrice_1}"/>/<spring:message code="each_short"/></span>&nbsp;&nbsp;&nbsp; <strong><spring:message code="special_short"/> <c:out value="${promoProdSpePrice_1}"/>/<spring:message code="each_short"/></strong>
 												</div>
 											</div>
 										</li>
 										<li>
-											<a href="itemPageList.do?classId=3&page=1&locale=${loc}" onclick="track(prom_prod_data[1]);" class="thumb" title="An image"><img src="${imagePathBase}/${ad_dir}/2.jpg" alt="Post" /></a>
+											<a href="itemPageList.do?classId=1&page=1&locale=${loc}" onclick="track(prom_prod_data[1]);" class="thumb" title="An image"><img src="${imagePathBase}/${ad_dir}/2.jpg" alt="Post" /></a>
 											<div class="excerpt">
-												<div align="center"><h6>FB1025RED</h6>
-												 10" <spring:message code="prom_prod_name_02"/> <br/><spring:message code="regular_short"/> <span style="text-decoration: line-through;">$25.00/<spring:message code="each_short"/></span>&nbsp;&nbsp;&nbsp; <strong><spring:message code="special_short"/> $20.00/<spring:message code="each_short"/></strong>
+												<div align="center"><h6><c:out value="${promoProdCode_2}"/></h6>
+												 <c:out value="${promoProdSpec_2}"/> <spring:message code="prom_prod_name_02"/> <br/><spring:message code="regular_short"/> <span style="text-decoration: line-through;"><c:out value="${promoProdRegPrice_2}"/>/<spring:message code="each_short"/></span>&nbsp;&nbsp;&nbsp; <strong><spring:message code="special_short"/> <c:out value="${promoProdSpePrice_2}"/>/<spring:message code="each_short"/></strong>
 												</div>
 											</div>
 										</li>
 										<li>
-											<a href="itemPageList.do?classId=10&page=1&locale=${loc}" onclick="track(prom_prod_data[2]);" class="thumb" title="An image"><img src="${imagePathBase}/${ad_dir}/3.jpg" alt="Post" /></a>
+											<a href="itemPageList.do?classId=1&page=1&locale=${loc}" onclick="track(prom_prod_data[2]);" class="thumb" title="An image"><img src="${imagePathBase}/${ad_dir}/3.jpg" alt="Post" /></a>
 											<div class="excerpt">
-												<div align="center"><h6>CB50-Red</h6>
-												6' <spring:message code="prom_prod_name_03"/> <br/><spring:message code="regular_short"/> <span style="text-decoration: line-through;">$7.95/<spring:message code="each_short"/></span>&nbsp;&nbsp;&nbsp; <strong><spring:message code="special_short"/> $5.95/<spring:message code="each_short"/></strong>
+												<div align="center"><h6><c:out value="${promoProdCode_3}"/></h6>
+												<c:out value="${promoProdSpec_3}"/> <spring:message code="prom_prod_name_03"/> <br/><spring:message code="regular_short"/> <span style="text-decoration: line-through;"><c:out value="${promoProdRegPrice_3}"/>/<spring:message code="each_short"/></span>&nbsp;&nbsp;&nbsp; <strong><spring:message code="special_short"/> <c:out value="${promoProdSpePrice_3}"/>/<spring:message code="each_short"/></strong>
 												</div>
 											</div>
 										</li>
@@ -243,7 +263,7 @@
 											</div>
 										</li>
 										<li>
-											<a href="itemPageList.do?classId=11&page=1&locale=${loc}" onclick="track(hot_prod_data[2]);" class="thumb" title="An image"><img src="${imagePathBase}/${ad_dir}/h3.jpg" alt="Post" /></a>
+											<a href="itemPageList.do?classId=1&page=1&locale=${loc}" onclick="track(hot_prod_data[2]);" class="thumb" title="An image"><img src="${imagePathBase}/${ad_dir}/h3.jpg" alt="Post" /></a>
 											<div class="excerpt">
 												<div align="center">
 												<h6><spring:message code="hot_prod_name_03"/></h6>
