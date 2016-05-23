@@ -27,30 +27,30 @@
 
 <!-- ad info -->
  
-<c:set var="promoProdCode_1" value="GP90015PU"/>
-<c:set var="promoProdCode_2" value="GP90017TQ"/>
-<c:set var="promoProdCode_3" value="GP90016Red"/>
+<c:set var="promoProdCode_1" value="231111"/>
+<c:set var="promoProdCode_2" value="160130"/>
+<c:set var="promoProdCode_3" value="182430"/>
 
 
-<c:set var="promoProdSpec_1" value='13”'/>
-<c:set var="promoProdSpec_2" value='13”'/>
-<c:set var="promoProdSpec_3" value='13”'/>
+<c:set var="promoProdSpec_1" value='4.2"x4.2"H'/>
+<c:set var="promoProdSpec_2" value='6"x12"H'/>
+<c:set var="promoProdSpec_3" value='4"x12"H'/>
 
  
-<c:set var="promoProdRegPrice_1" value="$6.95"/>
-<c:set var="promoProdRegPrice_2" value="$6.95"/>
-<c:set var="promoProdRegPrice_3" value="$6.95"/>
+<c:set var="promoProdRegPrice_1" value="$3.25"/>
+<c:set var="promoProdRegPrice_2" value="$10.95"/>
+<c:set var="promoProdRegPrice_3" value="$6.50"/>
 
-<c:set var="promoProdSpePrice_1" value="$5.20"/>
-<c:set var="promoProdSpePrice_2" value="$5.20"/>
-<c:set var="promoProdSpePrice_3" value="$5.20"/>
+<c:set var="promoProdSpePrice_1" value="$2.50"/>
+<c:set var="promoProdSpePrice_2" value="$8.50"/>
+<c:set var="promoProdSpePrice_3" value="$5.00"/>
 
-<c:set var="promoProdClassId_1" value="15"/>
-<c:set var="promoProdClassId_2" value="15"/>
-<c:set var="promoProdClassId_3" value="15"/>
+<c:set var="promoProdClassId_1" value="1"/>
+<c:set var="promoProdClassId_2" value="1"/>
+<c:set var="promoProdClassId_3" value="1"/>
 
 <c:set var="hotProdClassId_1" value="1"/>
-<c:set var="hotProdClassId_2" value="8"/>
+<c:set var="hotProdClassId_2" value="6"/>
 <c:set var="hotProdClassId_3" value="1"/>
 
 <!-- ENDS ad info -->
