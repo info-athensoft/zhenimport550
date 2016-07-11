@@ -27,27 +27,27 @@
 
 <!-- ad info -->
  
-<c:set var="promoProdCode_1" value="161460"/>
-<c:set var="promoProdCode_2" value="182460"/>
-<c:set var="promoProdCode_3" value="314060"/>
+<c:set var="promoProdCode_1" value="YQC1062GR"/>
+<c:set var="promoProdCode_2" value="YQC1062AM"/>
+<c:set var="promoProdCode_3" value="YQC1062TQ"/>
 
 
-<c:set var="promoProdSpec_1" value='4.5"x 24"H'/>
-<c:set var="promoProdSpec_2" value='4"x24"H'/>
-<c:set var="promoProdSpec_3" value='5.75"x24"H'/>
+<c:set var="promoProdSpec_1" value='1"'/>
+<c:set var="promoProdSpec_2" value='1"'/>
+<c:set var="promoProdSpec_3" value='1"'/>
 
  
-<c:set var="promoProdRegPrice_1" value="$14.00"/>
-<c:set var="promoProdRegPrice_2" value="$14.95"/>
-<c:set var="promoProdRegPrice_3" value="$19.95"/>
+<c:set var="promoProdRegPrice_1" value="$5.00"/>
+<c:set var="promoProdRegPrice_2" value="$5.00"/>
+<c:set var="promoProdRegPrice_3" value="$5.00"/>
 
-<c:set var="promoProdSpePrice_1" value="$10.00"/>
-<c:set var="promoProdSpePrice_2" value="$11.50"/>
-<c:set var="promoProdSpePrice_3" value="$14.50"/>
+<c:set var="promoProdSpePrice_1" value="$3.95"/>
+<c:set var="promoProdSpePrice_2" value="$3.95"/>
+<c:set var="promoProdSpePrice_3" value="$3.95"/>
 
-<c:set var="promoProdClassId_1" value="1"/>
-<c:set var="promoProdClassId_2" value="1"/>
-<c:set var="promoProdClassId_3" value="1"/>
+<c:set var="promoProdClassId_1" value="7"/>
+<c:set var="promoProdClassId_2" value="7"/>
+<c:set var="promoProdClassId_3" value="7"/>
 
 <c:set var="hotProdClassId_1" value="1"/>
 <c:set var="hotProdClassId_2" value="1"/>
@@ -211,7 +211,7 @@
 											<a href="itemPageList.do?classId=${promoProdClassId_1}&page=1&locale=${loc}" onclick="track(prom_prod_data[0]);" class="thumb" title="An image"><img src="${imagePathBase}/${ad_dir}/1.jpg" alt="Post" /></a>
 											<div class="excerpt">
 												<div align="center"><h6><c:out value="${promoProdCode_1}"/></h6>
-												<c:out value="${promoProdSpec_1}"/>&nbsp;&nbsp;<spring:message code="prom_prod_name_01"/> <br/><spring:message code="regular_short"/> <span style="text-decoration: line-through;"><c:out value="${promoProdRegPrice_1}"/>/<spring:message code="each_short"/></span>&nbsp;&nbsp;&nbsp; <strong><spring:message code="special_short"/> <c:out value="${promoProdSpePrice_1}"/>/<spring:message code="each_short"/></strong>
+												<c:out value="${promoProdSpec_1}"/>&nbsp;&nbsp;<spring:message code="prom_prod_name_01"/> <br/><spring:message code="regular_short"/> <span style="text-decoration: line-through;"><c:out value="${promoProdRegPrice_1}"/>/<spring:message code="bag"/></span>&nbsp;&nbsp;&nbsp; <strong><spring:message code="special_short"/> <c:out value="${promoProdSpePrice_1}"/>/<spring:message code="bag"/></strong>
 												</div>
 											</div>
 										</li>
@@ -219,7 +219,7 @@
 											<a href="itemPageList.do?classId=${promoProdClassId_2}&page=1&locale=${loc}" onclick="track(prom_prod_data[1]);" class="thumb" title="An image"><img src="${imagePathBase}/${ad_dir}/2.jpg" alt="Post" /></a>
 											<div class="excerpt">
 												<div align="center"><h6><c:out value="${promoProdCode_2}"/></h6>
-												 <c:out value="${promoProdSpec_2}"/>&nbsp;&nbsp;<spring:message code="prom_prod_name_02"/> <br/><spring:message code="regular_short"/> <span style="text-decoration: line-through;"><c:out value="${promoProdRegPrice_2}"/>/<spring:message code="each_short"/></span>&nbsp;&nbsp;&nbsp; <strong><spring:message code="special_short"/> <c:out value="${promoProdSpePrice_2}"/>/<spring:message code="each_short"/></strong>
+												 <c:out value="${promoProdSpec_2}"/>&nbsp;&nbsp;<spring:message code="prom_prod_name_02"/> <br/><spring:message code="regular_short"/> <span style="text-decoration: line-through;"><c:out value="${promoProdRegPrice_2}"/>/<spring:message code="bag"/></span>&nbsp;&nbsp;&nbsp; <strong><spring:message code="special_short"/> <c:out value="${promoProdSpePrice_2}"/>/<spring:message code="bag"/></strong>
 												</div>
 											</div>
 										</li>
@@ -227,7 +227,7 @@
 											<a href="itemPageList.do?classId=${promoProdClassId_3}&page=1&locale=${loc}" onclick="track(prom_prod_data[2]);" class="thumb" title="An image"><img src="${imagePathBase}/${ad_dir}/3.jpg" alt="Post" /></a>
 											<div class="excerpt">
 												<div align="center"><h6><c:out value="${promoProdCode_3}"/></h6>
-												<c:out value="${promoProdSpec_3}"/>&nbsp;&nbsp;<spring:message code="prom_prod_name_03"/> <br/><spring:message code="regular_short"/> <span style="text-decoration: line-through;"><c:out value="${promoProdRegPrice_3}"/>/<spring:message code="each_short"/></span>&nbsp;&nbsp;&nbsp; <strong><spring:message code="special_short"/> <c:out value="${promoProdSpePrice_3}"/>/<spring:message code="each_short"/></strong>
+												<c:out value="${promoProdSpec_3}"/>&nbsp;&nbsp;<spring:message code="prom_prod_name_03"/> <br/><spring:message code="regular_short"/> <span style="text-decoration: line-through;"><c:out value="${promoProdRegPrice_3}"/>/<spring:message code="bag"/></span>&nbsp;&nbsp;&nbsp; <strong><spring:message code="special_short"/> <c:out value="${promoProdSpePrice_3}"/>/<spring:message code="bag"/></strong>
 												</div>
 											</div>
 										</li>
