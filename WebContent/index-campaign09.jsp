@@ -27,23 +27,23 @@
 
 <!-- ad info -->
  
-<c:set var="promoProdCode_1" value="340825"/>
-<c:set var="promoProdCode_2" value="340830"/>
-<c:set var="promoProdCode_3" value="340835"/>
+<c:set var="promoProdCode_1" value="161460"/>
+<c:set var="promoProdCode_2" value="182460"/>
+<c:set var="promoProdCode_3" value="314060"/>
 
 
-<c:set var="promoProdSpec_1" value='3.5"x10"H'/>
-<c:set var="promoProdSpec_2" value='3.5"x12"H '/>
-<c:set var="promoProdSpec_3" value='3.5"x14"H '/>
+<c:set var="promoProdSpec_1" value='4.5"x 24"H'/>
+<c:set var="promoProdSpec_2" value='4"x24"H'/>
+<c:set var="promoProdSpec_3" value='5.75"x24"H'/>
 
  
-<c:set var="promoProdRegPrice_1" value="$10.95"/>
-<c:set var="promoProdRegPrice_2" value="$12.95"/>
-<c:set var="promoProdRegPrice_3" value="$13.95"/>
+<c:set var="promoProdRegPrice_1" value="$14.00"/>
+<c:set var="promoProdRegPrice_2" value="$14.95"/>
+<c:set var="promoProdRegPrice_3" value="$19.95"/>
 
-<c:set var="promoProdSpePrice_1" value="$7.95"/>
-<c:set var="promoProdSpePrice_2" value="$8.95"/>
-<c:set var="promoProdSpePrice_3" value="$9.95"/>
+<c:set var="promoProdSpePrice_1" value="$10.00"/>
+<c:set var="promoProdSpePrice_2" value="$11.50"/>
+<c:set var="promoProdSpePrice_3" value="$14.50"/>
 
 <c:set var="promoProdClassId_1" value="1"/>
 <c:set var="promoProdClassId_2" value="1"/>
@@ -199,16 +199,13 @@
 											<div class="excerpt" style="text-align:center">
 												<div align="center">
 													<h4><spring:message code="campaign_title"/></h4>
-													<p>
-													</p>
+													<p><spring:message code="campaign_desc"/></p>
 												</div>
 											</div>
 										</li>
 									</ul>
 									
-									<!-- 3 column promotion products -->
 									<div class="clearfix"></div>
-									<!-- 
 									<ul class="blocks-thumbs thumbs-rollover">
 										<li>
 											<a href="itemPageList.do?classId=${promoProdClassId_1}&page=1&locale=${loc}" onclick="track(prom_prod_data[0]);" class="thumb" title="An image"><img src="${imagePathBase}/${ad_dir}/1.jpg" alt="Post" /></a>
@@ -234,8 +231,7 @@
 												</div>
 											</div>
 										</li>
-									</ul>	
-																	
+									</ul>									
 									
 									<div class="clearfix"><br/></div>
 									<ul>
@@ -252,78 +248,6 @@
 											</div>
 										</li>
 									</ul>
-									 -->
-									
-									<!-- <div class="clearfix"><hr/></div>  -->
-									<div class="clearfix"></div>
-									
-									<!-- 1 column products -->
-									<!-- project column (left)-->
-							<div class="project-column">
-								<!-- shadow -->
-								<div class="project-shadow">
-									<div class="project-thumbnail"><a href="itemPageList.do?classId=${promoProdClassId_1}&page=1&locale=${loc}" onclick="track(prom_prod_data[0]);" class="thumb" title="An image"><img src="${imagePathBase}/${ad_dir}/1.jpg" alt="Post" /></a></div>
-									
-									<div align="center">													
-										<a href="contact.do?locale=${loc}" class="link-button" onclick="track(contact_us_data);"><span><spring:message code="button_contact"/></span></a>
-									</div>
-									
-									<!-- meta -->
-									<!-- 
-									<ul class="meta">
-										<li><strong>Project date</strong> Dec 27th 2011 </li>
-										<li><strong>Client</strong> IBM</li> 
-										<li><strong>Visit website</strong> <a href="#">www.luiszuno.com</a></li>
-									</ul>
-									 -->
-									<!-- ENDS meta -->
-									<div class="portfolio-left-shadow"></div>
-								</div>
-								<!-- ENDS shadow -->
-								
-								<!-- ENDS project gallery -->
-								
-								
-							</div>
-							<!-- ENDS project column (left)-->
-							
-							<!--project column (right) -->
-							<div class="project-column">
-								<h1 class="project-title"><spring:message code="campaign_desc"/></h1>
-								<p></p>
-								<div class="excerpt">
-									<div align="left"><h6><c:out value="${promoProdCode_1}"/></h6>
-									<c:out value="${promoProdSpec_1}"/>&nbsp;&nbsp;<spring:message code="prom_prod_name_01"/> <br/><spring:message code="regular_short"/> <span style="text-decoration: line-through;"><c:out value="${promoProdRegPrice_1}"/>/<spring:message code="each_short"/></span>&nbsp;&nbsp;&nbsp; <strong><spring:message code="special_short"/> <c:out value="${promoProdSpePrice_1}"/>/<spring:message code="each_short"/></strong>
-									&nbsp;<br/><br/>
-									</div>
-								</div>
-								<div class="excerpt">
-									<div align="left"><h6><c:out value="${promoProdCode_2}"/></h6>
-									<c:out value="${promoProdSpec_2}"/>&nbsp;&nbsp;<spring:message code="prom_prod_name_02"/> <br/><spring:message code="regular_short"/> <span style="text-decoration: line-through;"><c:out value="${promoProdRegPrice_2}"/>/<spring:message code="each_short"/></span>&nbsp;&nbsp;&nbsp; <strong><spring:message code="special_short"/> <c:out value="${promoProdSpePrice_2}"/>/<spring:message code="each_short"/></strong>
-									&nbsp;<br/><br/>
-									</div>
-								</div>
-								<div class="excerpt">
-									<div align="left"><h6><c:out value="${promoProdCode_3}"/></h6>
-									<c:out value="${promoProdSpec_3}"/>&nbsp;&nbsp;<spring:message code="prom_prod_name_03"/> <br/><spring:message code="regular_short"/> <span style="text-decoration: line-through;"><c:out value="${promoProdRegPrice_3}"/>/<spring:message code="each_short"/></span>&nbsp;&nbsp;&nbsp; <strong><spring:message code="special_short"/> <c:out value="${promoProdSpePrice_3}"/>/<spring:message code="each_short"/></strong>
-									&nbsp;<br/><br/>
-									</div>
-								</div>
-								<ul>
-									<li>
-										<div class="excerpt" style="text-align:center">
-											
-											<div align="left">
-												<br/>
-												<p><span><spring:message code="condition_policy"/></span></p>
-												<br/>
-											</div>
-										</div>
-									</li>
-								</ul>
-							</div>
-							<div class="clear"></div>
-							<!-- ENDS project column (right) -->
 									
 									<div class="clearfix"><hr/></div>
 																	
