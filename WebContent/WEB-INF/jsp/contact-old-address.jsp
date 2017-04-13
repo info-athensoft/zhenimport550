@@ -130,7 +130,7 @@
 					<p><img src="img/dummies/map.jpg" alt="map"></p>
 					-->
 					<div>
-						<iframe marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2794.6969334706455!2d-73.64654868504091!3d45.536303979101916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc918fccb055467%3A0x563545447d068bc4!2s326+Boulevard+Cr%C3%A9mazie+O%2C+Montr%C3%A9al%2C+QC+H2P+1C7!5e0!3m2!1sen!2sca!4v1492048345362" width="576" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+						<iframe marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=9176+Boul.+St-Laurent+Montr%C3%A9al,+QC+H2N+1M9&amp;aq=&amp;sll=45.454077,-73.594743&amp;sspn=0.01141,0.017209&amp;vpsrc=0&amp;ie=UTF8&amp;hq=&amp;hnear=9176+Boulevard+Saint-Laurent,+Montr%C3%A9al,+Communaut%C3%A9-Urbaine-de-Montr%C3%A9al,+Qu%C3%A9bec,+Canada&amp;t=m&amp;z=14&amp;ll=45.543837,-73.649423&amp;output=embed" frameborder="0" height="400" scrolling="no" width="576"></iframe>
 					</div>					
 					<!-- ENDS content -->
 				</div>
