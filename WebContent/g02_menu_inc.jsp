@@ -74,6 +74,8 @@
                         <li><a href="itemPageList.do?classId=13&page=1&locale=${loc}"><span> 13. <spring:message code="prod_cata_13"/></span></a></li>
                         <li><a href="itemPageList.do?classId=14&page=1&locale=${loc}"><span> 14. <spring:message code="prod_cata_14"/></span></a></li>
                         <li><a href="itemPageList.do?classId=15&page=1&locale=${loc}"><span> 15. <spring:message code="prod_cata_15"/></span></a></li>
+                        <li><a href="itemPageList.do?classId=16&page=1&locale=${loc}"><span> 16. <spring:message code="prod_cata_16"/></span></a></li>
+                        <li><a href="itemPageList.do?classId=17&page=1&locale=${loc}"><span> 17. <spring:message code="prod_cata_17"/></span></a></li>
 					</ul>
 				</li>
 				<li class="${current_menu_item_4}"><a href="service.do?locale=${loc}"><spring:message code="Services"/></a></li>

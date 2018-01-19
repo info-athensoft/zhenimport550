@@ -27,28 +27,32 @@
 
 <!-- ad info -->
  
-<c:set var="promoProdCode_1" value="CGTA Gift Show"/>
-<c:set var="promoProdCode_2" value="Quebec Garden Show"/>
-<c:set var="promoProdCode_2b" value="FIHOQ Expo"/>
+<c:set var="promoProdCode_1" value="340825"/>
+<c:set var="promoProdCode_2" value="340830"/>
+<c:set var="promoProdCode_3" value="340835"/>
 
 
-<c:set var="promoProdSpec_1" value='Toronto ON'/>
-<c:set var="promoProdSpec_2" value='Centrexpo Cogeco Drummondville Quebec'/>
+<c:set var="promoProdSpec_1" value='3.5"x10"H'/>
+<c:set var="promoProdSpec_2" value='3.5"x12"H '/>
+<c:set var="promoProdSpec_3" value='3.5"x14"H '/>
 
  
-<c:set var="promoProdRegPrice_1" value="(January and August)"/>
-<c:set var="promoProdRegPrice_2" value="(November)"/>
+<c:set var="promoProdRegPrice_1" value="$10.95"/>
+<c:set var="promoProdRegPrice_2" value="$12.95"/>
+<c:set var="promoProdRegPrice_3" value="$13.95"/>
 
+<c:set var="promoProdSpePrice_1" value="$7.95"/>
+<c:set var="promoProdSpePrice_2" value="$8.95"/>
+<c:set var="promoProdSpePrice_3" value="$9.95"/>
 
 <c:set var="promoProdClassId_1" value="1"/>
 <c:set var="promoProdClassId_2" value="1"/>
+<c:set var="promoProdClassId_3" value="1"/>
 
-<!-- 
 <c:set var="hotProdClassId_1" value="1"/>
 <c:set var="hotProdClassId_2" value="1"/>
 <c:set var="hotProdClassId_3" value="1"/>
- -->
- 
+
 <!-- ENDS ad info -->
 
 <head>
@@ -289,17 +293,22 @@
 								<p></p>
 								<div class="excerpt">
 									<div align="left"><h6><c:out value="${promoProdCode_1}"/></h6>
-									<c:out value="${promoProdSpec_1}"/>&nbsp;&nbsp;<spring:message code="prom_prod_name_01"/> <br/> <c:out value="${promoProdRegPrice_1}"/>
+									<c:out value="${promoProdSpec_1}"/>&nbsp;&nbsp;<spring:message code="prom_prod_name_01"/> <br/><spring:message code="regular_short"/> <span style="text-decoration: line-through;"><c:out value="${promoProdRegPrice_1}"/>/<spring:message code="each_short"/></span>&nbsp;&nbsp;&nbsp; <strong><spring:message code="special_short"/> <c:out value="${promoProdSpePrice_1}"/>/<spring:message code="each_short"/></strong>
 									&nbsp;<br/><br/>
 									</div>
 								</div>
 								<div class="excerpt">
-									<div align="left"><h6><c:out value="${promoProdCode_2}"/></h6><h6><c:out value="${promoProdCode_2b}"/></h6>
-									<c:out value="${promoProdSpec_2}"/>&nbsp;&nbsp;<spring:message code="prom_prod_name_02"/> <br/> <c:out value="${promoProdRegPrice_2}"/> 
+									<div align="left"><h6><c:out value="${promoProdCode_2}"/></h6>
+									<c:out value="${promoProdSpec_2}"/>&nbsp;&nbsp;<spring:message code="prom_prod_name_02"/> <br/><spring:message code="regular_short"/> <span style="text-decoration: line-through;"><c:out value="${promoProdRegPrice_2}"/>/<spring:message code="each_short"/></span>&nbsp;&nbsp;&nbsp; <strong><spring:message code="special_short"/> <c:out value="${promoProdSpePrice_2}"/>/<spring:message code="each_short"/></strong>
 									&nbsp;<br/><br/>
 									</div>
 								</div>
-								
+								<div class="excerpt">
+									<div align="left"><h6><c:out value="${promoProdCode_3}"/></h6>
+									<c:out value="${promoProdSpec_3}"/>&nbsp;&nbsp;<spring:message code="prom_prod_name_03"/> <br/><spring:message code="regular_short"/> <span style="text-decoration: line-through;"><c:out value="${promoProdRegPrice_3}"/>/<spring:message code="each_short"/></span>&nbsp;&nbsp;&nbsp; <strong><spring:message code="special_short"/> <c:out value="${promoProdSpePrice_3}"/>/<spring:message code="each_short"/></strong>
+									&nbsp;<br/><br/>
+									</div>
+								</div>
 								<ul>
 									<li>
 										<div class="excerpt" style="text-align:center">
@@ -315,9 +324,40 @@
 							</div>
 							<div class="clear"></div>
 							<!-- ENDS project column (right) -->
-							
+									
+									<div class="clearfix"><hr/></div>
+																	
+									<!-- hot products -->									
+									<h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="hot_prod_title"/></h6>
+									<ul class="blocks-thumbs thumbs-rollover">
+										<li>
+											<a href="itemPageList.do?classId=${hotProdClassId_1}&page=1&locale=${loc}" onclick="track(hot_prod_data[0]);" class="thumb" title="An image"><img src="${imagePathBase}/${ad_dir}/h1.jpg" alt="Post" /></a>
+											<div class="excerpt">
+												<div align="center">
+												<h6><spring:message code="hot_prod_name_01"/></h6>
+												</div>
+											</div>
+										</li>
+										<li>
+											<a href="itemPageList.do?classId=${hotProdClassId_2}&page=1&locale=${loc}" onclick="track(hot_prod_data[1]);" class="thumb" title="An image"><img src="${imagePathBase}/${ad_dir}/h2.jpg" alt="Post" /></a>
+											<div class="excerpt">
+												<div align="center">
+												<h6><spring:message code="hot_prod_name_02"/></h6>
+												</div>
+											</div>
+										</li>
+										<li>
+											<a href="itemPageList.do?classId=${hotProdClassId_3}&page=1&locale=${loc}" onclick="track(hot_prod_data[2]);" class="thumb" title="An image"><img src="${imagePathBase}/${ad_dir}/h3.jpg" alt="Post" /></a>
+											<div class="excerpt">
+												<div align="center">
+												<h6><spring:message code="hot_prod_name_03"/></h6>
+												</div>
+											</div>
+										</li>
+									</ul>
+									<!-- ENDS hot products -->
 								</div>
-							<!-- ENDS Promotion -->
+								<!-- ENDS Promotion -->
 								
 								
 							</div>

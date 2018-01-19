@@ -51,12 +51,20 @@
 					<li><a href="itemPageList.do?classId=7&page=1&locale=${loc}">07.<spring:message code="prod_cata_7"/></a></li>
 					<li><a href="itemPageList.do?classId=8&page=1&locale=${loc}">08.<spring:message code="prod_cata_8"/></a></li>
 					<li><a href="itemPageList.do?classId=9&page=1&locale=${loc}">09.<spring:message code="prod_cata_9"/></a></li>
+				</ul>
+			</li>
+			
+			<li class="col">
+				<h6>&nbsp;</h6>
+				<ul>
 					<li><a href="itemPageList.do?classId=10&page=1&locale=${loc}">10.<spring:message code="prod_cata_10"/></a></li>
 					<li><a href="itemPageList.do?classId=11&page=1&locale=${loc}">11.<spring:message code="prod_cata_11"/></a></li>
 					<li><a href="itemPageList.do?classId=12&page=1&locale=${loc}">12.<spring:message code="prod_cata_12"/></a></li>
 					<li><a href="itemPageList.do?classId=13&page=1&locale=${loc}">13.<spring:message code="prod_cata_13"/></a></li>
 					<li><a href="itemPageList.do?classId=14&page=1&locale=${loc}">14.<spring:message code="prod_cata_14"/></a></li>
 					<li><a href="itemPageList.do?classId=15&page=1&locale=${loc}">15.<spring:message code="prod_cata_15"/></a></li>
+					<li><a href="itemPageList.do?classId=16&page=1&locale=${loc}">16.<spring:message code="prod_cata_16"/></a></li>
+					<li><a href="itemPageList.do?classId=17&page=1&locale=${loc}">17.<spring:message code="prod_cata_17"/></a></li>
 				</ul>
 			</li>
 			

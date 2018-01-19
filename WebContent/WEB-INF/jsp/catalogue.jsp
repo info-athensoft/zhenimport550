@@ -651,6 +651,74 @@
 								<!-- ENDS shadow -->
 							</div>
 							<!-- ENDS project -->
+							
+							<!-- project -->
+							<div class="project">
+								<h7><a href="itemPageList.do?classId=16&page=1&locale=${loc}">16. <spring:message code="prod_cata_16"/></a></h7>
+								
+								<!-- shadow -->
+								<div class="project-shadow-small">
+									<!-- project-thumb -->
+									<div class="project-thumbnail">
+										
+										<!-- meta -->
+										<ul class="meta">
+											<li><strong>Description</strong> Description </li>
+											<li><strong>Total</strong> 300</li> 
+										</ul>
+										<!-- ENDS meta -->
+										
+										<!--  
+										<a href="catalogue_by_class.jsp" class="cover"><img src="img/dummies/438x267.gif"  alt="Feature image" /></a>
+										-->
+										<a href="itemPageList.do?classId=16&page=1&locale=${loc}" class="cover"><img src="${imagePathBase}/cata16.jpg"  alt="Feature image" /></a>
+									</div>
+									<!-- ENDS project-thumb -->
+									
+									<div class="the-excerpt">
+										&nbsp;
+									</div>	
+									<a href="itemPageList.do?classId=16&page=1&locale=${loc}" class="read-more link-button"><span><spring:message code="buttonLink_explore"/> 16</span></a>
+								
+								</div>
+								<!-- ENDS shadow -->
+							</div>
+							<!-- ENDS project -->
+							
+							
+							<!-- project -->
+							<div class="project">
+								<h7><a href="itemPageList.do?classId=16&page=1&locale=${loc}">17. <spring:message code="prod_cata_17"/></a></h7>
+								
+								<!-- shadow -->
+								<div class="project-shadow-small">
+									<!-- project-thumb -->
+									<div class="project-thumbnail">
+										
+										<!-- meta -->
+										<ul class="meta">
+											<li><strong>Description</strong> Description </li>
+											<li><strong>Total</strong> 300</li> 
+										</ul>
+										<!-- ENDS meta -->
+										
+										<!--  
+										<a href="catalogue_by_class.jsp" class="cover"><img src="img/dummies/438x267.gif"  alt="Feature image" /></a>
+										-->
+										<a href="itemPageList.do?classId=17&page=1&locale=${loc}" class="cover"><img src="${imagePathBase}/cata17.jpg"  alt="Feature image" /></a>
+									</div>
+									<!-- ENDS project-thumb -->
+									
+									<div class="the-excerpt">
+										&nbsp;
+									</div>	
+									<a href="itemPageList.do?classId=17&page=1&locale=${loc}" class="read-more link-button"><span><spring:message code="buttonLink_explore"/> 17</span></a>
+								
+								</div>
+								<!-- ENDS shadow -->
+							</div>
+							<!-- ENDS project -->
+							
 						</div>
 						<!-- ENDS Portfolio -->
 						
