@@ -127,6 +127,28 @@
 				<div id="page-content">
 					
 					<!-- toggle -->
+					<h6 class="toggle-trigger"><a href="#">News 2018-1</a></h6>
+					<div class="toggle-container">
+					    <div class="block">
+					    <p>CGTA Gift Show</p>
+						<p>Toronto ON</p>
+						<p>January and August, 2018</p>
+					    </div>
+					    
+					</div>
+					
+					<h6 class="toggle-trigger"><a href="#">News 2018-1</a></h6>
+					<div class="toggle-container">
+					    
+					    <div class="block">
+					    <p>Quebec Garden Show</p>
+						<p>FIHOQ Expo</p>
+						<p>Centrexpo Cogeco Drummondville Quebec</p>
+						<p>November, 2018</p>
+					    </div>
+					</div>
+					
+					
 					<h6 class="toggle-trigger"><a href="#">News 2013-3-25</a></h6>
 					<div class="toggle-container">
 					    <div class="block">
